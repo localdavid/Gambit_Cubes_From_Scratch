@@ -1,0 +1,32 @@
+body {
+  padding-top: 200px;
+}
+.starter-template{
+	padding-top:300px;
+	text-align:center;
+}
+.container {
+  padding-top: 20px;
+}
+
+.button {
+	background: gray;
+	width: 65px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	text-align: center;
+	
+}
+.band {
+	background: red;
+	height: 100px;
+	width: 80%;
+	padding: 30px;
+	margin: 30px;
+}
+
+.headliner {
+	background: #699de6;
+}
