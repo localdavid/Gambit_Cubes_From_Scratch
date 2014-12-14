@@ -1,12 +1,35 @@
+div {
+	border: 1px dashed gray;
+}
+
+div .filters{
+	background-color: blue;
+	padding: 10px;
+}
+
 body {
 /*   padding-top: 200px; */
 }
+
+div .cubes_left {
+	float: left;
+	width: 50%;
+}
+
+div .cubes_right {
+	float: right;
+	width: 50%;
+}
+
 .starter-template{
 /* 	padding-top:300px; */
+	margin: 50px;
+	border: 2px solid black;
 	text-align:center;
 }
 .container {
   padding-top: 20px;
+  border: 5px solid #aaaaaa;
 }
 
 /*
@@ -22,13 +45,26 @@ body {
 }
 */
 .band {
-	background: red;
+	background: #87d7d6;
 	height: 100px;
 	width: 80%;
 	padding: 30px;
 	margin: 30px;
+	border-radius: 12px;
 }
 
-.headliner {
-	background: #699de6;
+h1 {
+	text-align: center;
+}
+
+.band_name_box {
+	float: left;
+	width: 80%;
+}
+
+.g_box {
+	background: black;
+	width: 30px;
+	height: 30px;
+	float: right;
 }
