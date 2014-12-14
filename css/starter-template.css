@@ -60,11 +60,20 @@ h1 {
 .band_name_box {
 	float: left;
 	width: 80%;
+	background: gray;
+}
+
+.icon_box {
+	float: left;
+	width: 20%;
+	height: 90%;
 }
 
 .g_box {
-	background: black;
-	width: 30px;
-	height: 30px;
-	float: right;
+	content: url(/img/G.svg);
+}
+
+.pick_box{
+	content: url(/img/check.svg);
+	width: 100%;
 }
