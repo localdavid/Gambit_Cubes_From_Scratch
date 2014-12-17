@@ -64,7 +64,7 @@ h1 {
 }
 
 .icon_box {
-	float: left;
+	float: right;
 	width: 20%;
 	height: 90%;
 }
@@ -76,4 +76,53 @@ h1 {
 .pick_box{
 	content: url(/img/check.svg);
 	width: 100%;
+}
+
+/*style the main menu*/
+.weekend_select .weekend_select .myMenu {
+	margin:0;
+	padding:0;
+}
+
+.weekend_select .myMenu li {
+	list-style:none;
+	float:left;
+	font:12px Arial, Helvetica, sans-serif #111;
+}
+
+.weekend_select .myMenu li a:link, .weekend_select .myMenu li a:visited {
+	display:block;
+	text-decoration:none;
+	background-color:#09F;
+	padding: 0.5em 2em;
+	margin:0;
+	border-right: 1px solid #fff;
+	color:#111;
+}
+
+.weekend_select .myMenu li a:hover {
+	background-color:#0CF;	
+}
+
+/*style the sub menu*/
+.weekend_select .myMenu li ul {
+	position:absolute;
+	visibility:hidden;
+	border-top:1px solid #fff;
+	margin:0;
+	padding:0;
+}
+
+.weekend_select .myMenu li ul li {
+	display:inline;
+	float:none;
+}
+
+.weekend_select .myMenu li ul li a:link, .weekend_select .myMenu li ul li a:visited {
+	background-color:#09F;
+	width:auto;
+}
+
+.weekend_select .myMenu li ul li a:hover {
+	background-color:#0CF;	
 }
