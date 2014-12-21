@@ -1,5 +1,10 @@
 $primary_color: #87d7d6;
 
+@mixin filter_sort_bar {
+	height: 40px;
+	width: 100%;
+}
+
 div {
 	border: 1px dashed gray;
 	}
@@ -17,8 +22,7 @@ div {
 	}
 	.date_select_div {
 		background-color: gray;
-		height: 40px;
-		width: 100%;
+		@include filter_sort_bar;
 	}
 
 
