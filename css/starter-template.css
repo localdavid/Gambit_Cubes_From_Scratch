@@ -1,0 +1,150 @@
+/* line 1, ! input/starter-template.scss */
+div {
+  border: 1px dashed gray;
+}
+
+/* line 5, ! input/starter-template.scss */
+div .filters {
+  background-color: blue;
+  padding: 10px;
+}
+
+/* line 10, ! input/starter-template.scss */
+body {
+  /*   padding-top: 200px; */
+}
+
+/* line 14, ! input/starter-template.scss */
+div .cubes_left {
+  float: left;
+  width: 50%;
+}
+
+/* line 19, ! input/starter-template.scss */
+div .cubes_right {
+  float: right;
+  width: 50%;
+}
+
+/* line 24, ! input/starter-template.scss */
+.starter-template {
+  /* 	padding-top:300px; */
+  margin: 50px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+/* line 30, ! input/starter-template.scss */
+.container {
+  padding-top: 20px;
+  border: 5px solid #aaaaaa;
+}
+
+/*
+.button {
+	background: gray;
+	width: 35px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	text-align: center;
+	
+}
+*/
+/* line 47, ! input/starter-template.scss */
+.band {
+  background: #87d7d6;
+  height: 100px;
+  width: 80%;
+  padding: 30px;
+  margin: 30px;
+  border-radius: 12px;
+}
+
+/* line 56, ! input/starter-template.scss */
+h1 {
+  text-align: center;
+}
+
+/* line 60, ! input/starter-template.scss */
+.band_name_box {
+  float: left;
+  width: 80%;
+  background: gray;
+}
+
+/* line 66, ! input/starter-template.scss */
+.icon_box {
+  float: right;
+  width: 20%;
+  height: 90%;
+}
+
+/* line 72, ! input/starter-template.scss */
+.g_box {
+  content: url(/img/G.svg);
+}
+
+/* line 76, ! input/starter-template.scss */
+.pick_box {
+  content: url(/img/check.svg);
+  width: 100%;
+}
+
+/*style the main menu*/
+/* line 82, ! input/starter-template.scss */
+.weekend_select .weekend_select .myMenu {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 87, ! input/starter-template.scss */
+.weekend_select .myMenu li {
+  list-style: none;
+  float: left;
+  font: 12px Arial, Helvetica, sans-serif #111;
+}
+
+/* line 93, ! input/starter-template.scss */
+.weekend_select .myMenu li a:link, .weekend_select .myMenu li a:visited {
+  display: block;
+  text-decoration: none;
+  background-color: #09F;
+  padding: 0.5em 2em;
+  margin: 0;
+  border-right: 1px solid #fff;
+  color: #111;
+}
+
+/* line 103, ! input/starter-template.scss */
+.weekend_select .myMenu li a:hover {
+  background-color: #0CF;
+}
+
+/*style the sub menu*/
+/* line 108, ! input/starter-template.scss */
+.weekend_select .myMenu li ul {
+  position: absolute;
+  visibility: hidden;
+  border-top: 1px solid #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 116, ! input/starter-template.scss */
+.weekend_select .myMenu li ul li {
+  display: inline;
+  float: none;
+}
+
+/* line 121, ! input/starter-template.scss */
+.weekend_select .myMenu li ul li a:link, .weekend_select .myMenu li ul li a:visited {
+  background-color: #09F;
+  width: auto;
+}
+
+/* line 126, ! input/starter-template.scss */
+.weekend_select .myMenu li ul li a:hover {
+  background-color: #0CF;
+}
