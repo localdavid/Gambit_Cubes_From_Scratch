@@ -21,23 +21,30 @@ div {
   width: 50%;
 }
 
+/* line 18, ! input/starter-template.scss */
+.date_select_div {
+  background-color: gray;
+  height: 40px;
+  width: 100%;
+}
+
 /* Drop down menu to select weekend --------------------------------------------------------------------- */
 /* .myMenu is the class for the whole menu */
-/* line 22, ! input/starter-template.scss */
+/* line 27, ! input/starter-template.scss */
 .myMenu {
   margin: 0;
   padding: 0;
 }
 
 /* li is the top level box, the first one you see */
-/* line 28, ! input/starter-template.scss */
+/* line 33, ! input/starter-template.scss */
 li {
   list-style: none;
   float: left;
   font: 12px Arial, Helvetica, sans-serif #111;
   /* li ul is the container for the boxes that come out when the top box is expanded */
 }
-/* line 32, ! input/starter-template.scss */
+/* line 37, ! input/starter-template.scss */
 li a:link, li a:visited {
   display: block;
   text-decoration: none;
@@ -47,11 +54,11 @@ li a:link, li a:visited {
   border-right: 1px solid #fff;
   color: #111;
 }
-/* line 41, ! input/starter-template.scss */
+/* line 46, ! input/starter-template.scss */
 li a:hover {
   background-color: #0CF;
 }
-/* line 45, ! input/starter-template.scss */
+/* line 50, ! input/starter-template.scss */
 li ul {
   position: absolute;
   visibility: hidden;
@@ -59,30 +66,30 @@ li ul {
   margin: 0;
   padding: 0;
 }
-/* line 51, ! input/starter-template.scss */
+/* line 56, ! input/starter-template.scss */
 li ul li {
   display: inline;
   float: none;
 }
-/* line 54, ! input/starter-template.scss */
+/* line 59, ! input/starter-template.scss */
 li ul li a:link, li ul li .myMenu li ul li a:visited {
   background-color: #09F;
   width: auto;
 }
 
-/* line 63, ! input/starter-template.scss */
+/* line 68, ! input/starter-template.scss */
 .myMenu li ul li a:link, .myMenu li ul li a:visited {
   background-color: #09F;
   width: auto;
 }
 
-/* line 68, ! input/starter-template.scss */
+/* line 73, ! input/starter-template.scss */
 .myMenu li ul li a:hover {
   background-color: #0CF;
 }
 
 /* End Drop down menu to select weekend --------------------------------------------------------------------- */
-/* line 78, ! input/starter-template.scss */
+/* line 83, ! input/starter-template.scss */
 div
 .starter-template {
   /* 	padding-top:300px; */
@@ -91,7 +98,7 @@ div
   text-align: center;
 }
 
-/* line 84, ! input/starter-template.scss */
+/* line 89, ! input/starter-template.scss */
 .container {
   padding-top: 20px;
   border: 5px solid #aaaaaa;
@@ -109,7 +116,7 @@ div
 	
 }
 */
-/* line 101, ! input/starter-template.scss */
+/* line 106, ! input/starter-template.scss */
 .band {
   background: #87d7d6;
   height: 100px;
@@ -119,31 +126,31 @@ div
   border-radius: 12px;
 }
 
-/* line 110, ! input/starter-template.scss */
+/* line 115, ! input/starter-template.scss */
 h1 {
   text-align: center;
 }
 
-/* line 114, ! input/starter-template.scss */
+/* line 119, ! input/starter-template.scss */
 .band_name_box {
   float: left;
   width: 80%;
   background: gray;
 }
 
-/* line 120, ! input/starter-template.scss */
+/* line 125, ! input/starter-template.scss */
 .icon_box {
   float: right;
   width: 20%;
   height: 90%;
 }
 
-/* line 126, ! input/starter-template.scss */
+/* line 131, ! input/starter-template.scss */
 .g_box {
   content: url(/img/G.svg);
 }
 
-/* line 130, ! input/starter-template.scss */
+/* line 135, ! input/starter-template.scss */
 .pick_box {
   content: url(/img/check.svg);
   width: 100%;
