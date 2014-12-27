@@ -1,0 +1,58 @@
+div 
+
+.starter-template{
+/* 	padding-top:300px; */
+	margin: 50px;
+	border: 2px solid black;
+	text-align:center;
+}
+.container {
+  padding-top: 20px;
+  border: 5px solid #aaaaaa;
+}
+
+/*
+.button {
+	background: gray;
+	width: 35px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	text-align: center;
+	
+}
+*/
+.band {
+	background: $primary_color;
+	height: 100px;
+	width: 80%;
+	padding: 30px;
+	margin: 30px;
+	border-radius: 12px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.band_name_box {
+	float: left;
+	width: 80%;
+	background: gray;
+}
+
+.icon_box {
+	float: right;
+	width: 20%;
+	height: 90%;
+}
+
+.g_box {
+	content: url(/img/G.svg);
+}
+
+.pick_box{
+	content: url(/img/check.svg);
+	width: 100%;
+}

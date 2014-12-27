@@ -1,0 +1,43 @@
+/* Drop down menu to select weekend --------------------------------------------------------------------- */
+/* .myMenu is the class for the whole menu */
+.myMenu {
+  margin: 0;
+  padding: 0; }
+
+/* li is the top level box, the first one you see */
+li {
+  list-style: none;
+  float: left;
+  font: 12px Arial, Helvetica, sans-serif #111;
+  /* li ul is the container for the boxes that come out when the top box is expanded */ }
+  li a:link, li a:visited {
+    display: block;
+    text-decoration: none;
+    background-color: #09F;
+    padding: 0.5em 2em;
+    margin: 0;
+    border-right: 1px solid #fff;
+    color: #111; }
+  li a:hover {
+    background-color: #0CF; }
+  li ul {
+    position: absolute;
+    visibility: hidden;
+    border-top: 1px solid #fff;
+    margin: 0;
+    padding: 0; }
+    li ul li {
+      display: inline;
+      float: none; }
+      li ul li a:link, li ul li .myMenu li ul li a:visited {
+        background-color: #09F;
+        width: auto; }
+
+.myMenu li ul li a:link, .myMenu li ul li a:visited {
+  background-color: #09F;
+  width: auto; }
+
+.myMenu li ul li a:hover {
+  background-color: #0CF; }
+
+/* End Drop down menu to select weekend --------------------------------------------------------------------- */

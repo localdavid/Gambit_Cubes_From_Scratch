@@ -1,0 +1,24 @@
+@mixin filter_sort_bar {
+	height: 40px;
+	width: 100%;
+}
+
+div {
+	border: 1px dashed gray;
+	}
+	.filters{
+		background-color: blue;
+		padding: 10px;
+	}
+	.cubes_left {
+		float: left;
+		width: 50%;
+	}
+	.cubes_right {
+		float: right;
+		width: 50%;
+	}
+	.date_select_div {
+		background-color: gray;
+		@include filter_sort_bar;
+	}
