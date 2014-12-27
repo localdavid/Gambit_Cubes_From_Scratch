@@ -30,10 +30,10 @@ $(document).ready(function() {
 		$("div .band").not(".headliner").toggle();
 	});
 	
-	$(".alex_button").click(function() {
+	$(".count_basin_button").click(function() {
 		//Filter to show only alex's picks
 		// Goes through all divs with class=band. Those that don't have class=headliner are toggled on and off
-		$("div .band").not(".alex").toggle();
+		$("div .band").not(".count_basin").toggle();
 	});
 		
 	$(".cover_button").click(function() {
