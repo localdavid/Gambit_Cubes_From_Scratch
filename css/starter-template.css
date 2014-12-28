@@ -12,31 +12,37 @@ html {
   -moz-box-sizing: inherit;
   box-sizing: inherit; }
 
-div
-.starter-template {
-  /* 	padding-top:300px; */
-  margin: 50px;
-  border: 2px solid black;
-  text-align: center; }
+section#cubes {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  section#cubes:after {
+    content: "";
+    display: table;
+    clear: both; }
+  section#cubes .cubes_left {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 23.2317613015%;
+    height: 20em;
+    line-height: 5em;
+    background: green; }
+    section#cubes .cubes_left:last-child {
+      margin-right: 0; }
+  section#cubes .cubes_right {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 74.4105871005%;
+    height: 20em;
+    line-height: 5em;
+    background: green; }
+    section#cubes .cubes_right:last-child {
+      margin-right: 0; }
 
-.container {
-  padding-top: 20px;
-  border: 5px solid #aaaaaa; }
-
-/*
-.button {
-	background: gray;
-	width: 35px;
-	height: 50px;
-	margin-left: auto;
-	margin-right: auto;
-	border-radius: 5px;
-	text-align: center;
-	
-}
-*/
 .band {
-  background: #87d7d6;
+  background: #b7ff86;
   height: 100px;
   width: 80%;
   padding: 30px;

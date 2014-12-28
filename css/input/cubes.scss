@@ -1,28 +1,34 @@
-div 
-
-.starter-template{
-/* 	padding-top:300px; */
-	margin: 50px;
-	border: 2px solid black;
-	text-align:center;
-}
-.container {
-  padding-top: 20px;
-  border: 5px solid #aaaaaa;
+@mixin column {
+	height: $body-line-height*4;
+    line-height: $body-line-height;
+    background: green;
 }
 
-/*
-.button {
-	background: gray;
-	width: 35px;
-	height: 50px;
-	margin-left: auto;
-	margin-right: auto;
-	border-radius: 5px;
-	text-align: center;
+
+section {
 	
+	&#cubes {
+		@include outer-container;
+		
+		.cubes_left {
+			@include span-columns(3);
+			@include column;
+		}
+
+		.cubes_right {
+			@include span-columns(9);
+			@include column;
+		
+		}
+	}
 }
-*/
+
+
+
+	
+
+
+	
 .band {
 	background: $primary_color;
 	height: 100px;
@@ -56,3 +62,6 @@ h1 {
 	content: url(/img/check.svg);
 	width: 100%;
 }
+
+
+
