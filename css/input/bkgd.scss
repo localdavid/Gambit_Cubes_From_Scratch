@@ -1,0 +1,5 @@
+body {
+  font: 100% $font-stack;
+  color: black;
+  @include linear-gradient($primary-color, $secondary-color);
+}

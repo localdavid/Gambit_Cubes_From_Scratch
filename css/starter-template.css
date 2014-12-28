@@ -1,108 +1,27 @@
-/* line 8, ! input/starter-template.scss */
-div {
-  border: 1px dashed gray;
-}
+/* Neat 1.7.0
+ * http://neat.bourbon.io
+ * Copyright 2012-2014 thoughtbot, inc.
+ * MIT License */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
 
-/* line 11, ! input/starter-template.scss */
-.filters {
-  background-color: blue;
-  padding: 10px;
-}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
 
-/* line 15, ! input/starter-template.scss */
-.cubes_left {
-  float: left;
-  width: 50%;
-}
-
-/* line 19, ! input/starter-template.scss */
-.cubes_right {
-  float: right;
-  width: 50%;
-}
-
-/* line 23, ! input/starter-template.scss */
-.date_select_div {
-  background-color: gray;
-  height: 40px;
-  width: 100%;
-}
-
-/* Drop down menu to select weekend --------------------------------------------------------------------- */
-/* .myMenu is the class for the whole menu */
-/* line 31, ! input/starter-template.scss */
-.myMenu {
-  margin: 0;
-  padding: 0;
-}
-
-/* li is the top level box, the first one you see */
-/* line 37, ! input/starter-template.scss */
-li {
-  list-style: none;
-  float: left;
-  font: 12px Arial, Helvetica, sans-serif #111;
-  /* li ul is the container for the boxes that come out when the top box is expanded */
-}
-/* line 41, ! input/starter-template.scss */
-li a:link, li a:visited {
-  display: block;
-  text-decoration: none;
-  background-color: #09F;
-  padding: 0.5em 2em;
-  margin: 0;
-  border-right: 1px solid #fff;
-  color: #111;
-}
-/* line 50, ! input/starter-template.scss */
-li a:hover {
-  background-color: #0CF;
-}
-/* line 54, ! input/starter-template.scss */
-li ul {
-  position: absolute;
-  visibility: hidden;
-  border-top: 1px solid #fff;
-  margin: 0;
-  padding: 0;
-}
-/* line 60, ! input/starter-template.scss */
-li ul li {
-  display: inline;
-  float: none;
-}
-/* line 63, ! input/starter-template.scss */
-li ul li a:link, li ul li .myMenu li ul li a:visited {
-  background-color: #09F;
-  width: auto;
-}
-
-/* line 72, ! input/starter-template.scss */
-.myMenu li ul li a:link, .myMenu li ul li a:visited {
-  background-color: #09F;
-  width: auto;
-}
-
-/* line 77, ! input/starter-template.scss */
-.myMenu li ul li a:hover {
-  background-color: #0CF;
-}
-
-/* End Drop down menu to select weekend --------------------------------------------------------------------- */
-/* line 87, ! input/starter-template.scss */
 div
 .starter-template {
   /* 	padding-top:300px; */
   margin: 50px;
   border: 2px solid black;
-  text-align: center;
-}
+  text-align: center; }
 
-/* line 93, ! input/starter-template.scss */
 .container {
   padding-top: 20px;
-  border: 5px solid #aaaaaa;
-}
+  border: 5px solid #aaaaaa; }
 
 /*
 .button {
@@ -116,42 +35,93 @@ div
 	
 }
 */
-/* line 110, ! input/starter-template.scss */
 .band {
   background: #87d7d6;
   height: 100px;
   width: 80%;
   padding: 30px;
   margin: 30px;
-  border-radius: 12px;
-}
+  border-radius: 12px; }
 
-/* line 119, ! input/starter-template.scss */
 h1 {
-  text-align: center;
-}
+  text-align: center; }
 
-/* line 123, ! input/starter-template.scss */
 .band_name_box {
   float: left;
   width: 80%;
-  background: gray;
-}
+  background: gray; }
 
-/* line 129, ! input/starter-template.scss */
 .icon_box {
   float: right;
   width: 20%;
-  height: 90%;
-}
+  height: 90%; }
 
-/* line 135, ! input/starter-template.scss */
 .g_box {
-  content: url(/img/G.svg);
-}
+  content: url(/img/G.svg); }
 
-/* line 139, ! input/starter-template.scss */
 .pick_box {
   content: url(/img/check.svg);
-  width: 100%;
-}
+  width: 100%; }
+
+/* Drop down menu to select weekend --------------------------------------------------------------------- */
+/* .myMenu is the class for the whole menu */
+.myMenu {
+  margin: 0;
+  padding: 0; }
+
+/* li is the top level box, the first one you see */
+li {
+  list-style: none;
+  float: left;
+  font: 12px Arial, Helvetica, sans-serif #111;
+  /* li ul is the container for the boxes that come out when the top box is expanded */ }
+  li a:link, li a:visited {
+    display: block;
+    text-decoration: none;
+    background-color: #09F;
+    padding: 0.5em 2em;
+    margin: 0;
+    border-right: 1px solid #fff;
+    color: #111; }
+  li a:hover {
+    background-color: #0CF; }
+  li ul {
+    position: absolute;
+    visibility: hidden;
+    border-top: 1px solid #fff;
+    margin: 0;
+    padding: 0; }
+    li ul li {
+      display: inline;
+      float: none; }
+      li ul li a:link, li ul li .myMenu li ul li a:visited {
+        background-color: #09F;
+        width: auto; }
+
+.myMenu li ul li a:link, .myMenu li ul li a:visited {
+  background-color: #09F;
+  width: auto; }
+
+.myMenu li ul li a:hover {
+  background-color: #0CF; }
+
+/* End Drop down menu to select weekend --------------------------------------------------------------------- */
+div {
+  border: 1px dashed gray; }
+
+.filters {
+  background-color: blue;
+  padding: 10px; }
+
+.cubes_left {
+  float: left;
+  width: 50%; }
+
+.cubes_right {
+  float: right;
+  width: 50%; }
+
+.date_select_div {
+  background-color: gray;
+  height: 40px;
+  width: 100%; }
