@@ -13,9 +13,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background-color: #b7ff86;
-  background-image: -webkit-linear-gradient(#b7ff86, #93ffd5);
-  background-image: linear-gradient(#b7ff86, #93ffd5); }
+  background-color: white; }
 
 .starter-template {
   /* 	padding-top:300px; */
@@ -26,7 +24,8 @@ body {
 section#cubes {
   max-width: 68em;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  background-color: rgba(182, 231, 255, 0.95); }
   section#cubes:after {
     content: "";
     display: table;
@@ -89,6 +88,9 @@ h1 {
 .pick_box {
   content: url(/img/check.svg);
   width: 100%; }
+
+section#navigation {
+  background-color: #ddce46; }
 
 /* Drop down menu to select weekend --------------------------------------------------------------------- */
 /* .myMenu is the class for the whole menu */

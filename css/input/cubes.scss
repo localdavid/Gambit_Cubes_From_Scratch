@@ -9,6 +9,7 @@ section {
 	
 	&#cubes {
 		@include outer-container;
+		background-color: rgba(182, 231, 255, 0.95);
 		
 		.cubes_left {
 			@include span-columns(4);
