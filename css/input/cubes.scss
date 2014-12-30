@@ -11,12 +11,18 @@ section {
 		@include outer-container;
 		
 		.cubes_left {
-			@include span-columns(3);
+			@include span-columns(4);
+			@include column;
+		}
+		
+		.cubes_two  {
+			@include span-columns(4);
 			@include column;
 		}
 
+
 		.cubes_right {
-			@include span-columns(9);
+			@include span-columns(4);
 			@include column;
 		
 		}

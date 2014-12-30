@@ -12,6 +12,17 @@ html {
   -moz-box-sizing: inherit;
   box-sizing: inherit; }
 
+body {
+  background-color: #b7ff86;
+  background-image: -webkit-linear-gradient(#b7ff86, #93ffd5);
+  background-image: linear-gradient(#b7ff86, #93ffd5); }
+
+.starter-template {
+  /* 	padding-top:300px; */
+  margin: 50px;
+  border: 2px solid black;
+  text-align: center; }
+
 section#cubes {
   max-width: 68em;
   margin-left: auto;
@@ -24,17 +35,27 @@ section#cubes {
     float: left;
     display: block;
     margin-right: 2.3576515979%;
-    width: 23.2317613015%;
+    width: 31.7615656014%;
     height: 20em;
     line-height: 5em;
     background: green; }
     section#cubes .cubes_left:last-child {
       margin-right: 0; }
+  section#cubes .cubes_two {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 31.7615656014%;
+    height: 20em;
+    line-height: 5em;
+    background: green; }
+    section#cubes .cubes_two:last-child {
+      margin-right: 0; }
   section#cubes .cubes_right {
     float: left;
     display: block;
     margin-right: 2.3576515979%;
-    width: 74.4105871005%;
+    width: 31.7615656014%;
     height: 20em;
     line-height: 5em;
     background: green; }
