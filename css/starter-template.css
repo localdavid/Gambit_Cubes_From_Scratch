@@ -25,7 +25,7 @@ section#cubes {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  background-color: rgba(182, 231, 255, 0.95); }
+  background-color: #d4eefa; }
   section#cubes:after {
     content: "";
     display: table;
@@ -37,7 +37,7 @@ section#cubes {
     width: 31.7615656014%;
     height: 20em;
     line-height: 5em;
-    background: green; }
+    background: #a9daf4; }
     section#cubes .cubes_left:last-child {
       margin-right: 0; }
   section#cubes .cubes_two {
@@ -47,7 +47,7 @@ section#cubes {
     width: 31.7615656014%;
     height: 20em;
     line-height: 5em;
-    background: green; }
+    background: #a9daf4; }
     section#cubes .cubes_two:last-child {
       margin-right: 0; }
   section#cubes .cubes_right {
@@ -57,7 +57,7 @@ section#cubes {
     width: 31.7615656014%;
     height: 20em;
     line-height: 5em;
-    background: green; }
+    background: #a9daf4; }
     section#cubes .cubes_right:last-child {
       margin-right: 0; }
 
