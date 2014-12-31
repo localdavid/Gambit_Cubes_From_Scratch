@@ -35,7 +35,7 @@ section#cubes {
     display: block;
     margin-right: 2.3576515979%;
     width: 31.7615656014%;
-    height: 20em;
+    height: 600px;
     line-height: 5em;
     background: #a9daf4; }
     section#cubes .cubes_left:last-child {
@@ -45,7 +45,7 @@ section#cubes {
     display: block;
     margin-right: 2.3576515979%;
     width: 31.7615656014%;
-    height: 20em;
+    height: 600px;
     line-height: 5em;
     background: #a9daf4; }
     section#cubes .cubes_two:last-child {
@@ -55,7 +55,7 @@ section#cubes {
     display: block;
     margin-right: 2.3576515979%;
     width: 31.7615656014%;
-    height: 20em;
+    height: 600px;
     line-height: 5em;
     background: #a9daf4; }
     section#cubes .cubes_right:last-child {
