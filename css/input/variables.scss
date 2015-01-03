@@ -3,3 +3,7 @@ $primary-color: #b7ff86;
 $secondary-color: #93ffd5;
 $secondary-color-lighten: lighten($secondary-color, 15%);
 $body-line-height: 5em;
+
+// Breakpoints
+
+$small-media: new-breakpoint(max-width 480px 4);
