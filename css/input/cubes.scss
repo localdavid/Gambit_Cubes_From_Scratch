@@ -11,20 +11,37 @@ section {
 		@include outer-container;
 		background-color: rgb(212, 238, 250);
 		
+				
 		.cubes_left {
-			@include span-columns(4);
+			
 			@include column;
+			@include media($small-media) {
+				@include span-columns(12);
+			}
+			@include media($large-media) {
+				@include span-columns(4);
+			}
 		}
 		
 		.cubes_two  {
-			@include span-columns(4);
 			@include column;
+			@include media($small-media) {
+				@include span-columns(12);
+			}
+			@include media($large-media) {
+				@include span-columns(4);
+			}
 		}
 
 
 		.cubes_right {
-			@include span-columns(4);
 			@include column;
+			@include media($small-media) {
+				@include span-columns(12);
+			}
+			@include media($large-media) {
+				@include span-columns(4);
+			}
 		
 		}
 	}

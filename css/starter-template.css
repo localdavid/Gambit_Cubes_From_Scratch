@@ -50,35 +50,65 @@ section#cubes {
     display: table;
     clear: both; }
   section#cubes .cubes_left {
-    float: left;
-    display: block;
-    margin-right: 2.3576515979%;
-    width: 31.7615656014%;
     height: 600px;
     line-height: 5em;
     background: #a9daf4; }
-    section#cubes .cubes_left:last-child {
-      margin-right: 0; }
+    @media screen and (max-width: 600px) {
+      section#cubes .cubes_left {
+        float: left;
+        display: block;
+        margin-right: 2.3576515979%;
+        width: 100%; }
+        section#cubes .cubes_left:last-child {
+          margin-right: 0; } }
+    @media screen and (min-width: 601px) {
+      section#cubes .cubes_left {
+        float: left;
+        display: block;
+        margin-right: 2.3576515979%;
+        width: 31.7615656014%; }
+        section#cubes .cubes_left:last-child {
+          margin-right: 0; } }
   section#cubes .cubes_two {
-    float: left;
-    display: block;
-    margin-right: 2.3576515979%;
-    width: 31.7615656014%;
     height: 600px;
     line-height: 5em;
     background: #a9daf4; }
-    section#cubes .cubes_two:last-child {
-      margin-right: 0; }
+    @media screen and (max-width: 600px) {
+      section#cubes .cubes_two {
+        float: left;
+        display: block;
+        margin-right: 2.3576515979%;
+        width: 100%; }
+        section#cubes .cubes_two:last-child {
+          margin-right: 0; } }
+    @media screen and (min-width: 601px) {
+      section#cubes .cubes_two {
+        float: left;
+        display: block;
+        margin-right: 2.3576515979%;
+        width: 31.7615656014%; }
+        section#cubes .cubes_two:last-child {
+          margin-right: 0; } }
   section#cubes .cubes_right {
-    float: left;
-    display: block;
-    margin-right: 2.3576515979%;
-    width: 31.7615656014%;
     height: 600px;
     line-height: 5em;
     background: #a9daf4; }
-    section#cubes .cubes_right:last-child {
-      margin-right: 0; }
+    @media screen and (max-width: 600px) {
+      section#cubes .cubes_right {
+        float: left;
+        display: block;
+        margin-right: 2.3576515979%;
+        width: 100%; }
+        section#cubes .cubes_right:last-child {
+          margin-right: 0; } }
+    @media screen and (min-width: 601px) {
+      section#cubes .cubes_right {
+        float: left;
+        display: block;
+        margin-right: 2.3576515979%;
+        width: 31.7615656014%; }
+        section#cubes .cubes_right:last-child {
+          margin-right: 0; } }
 
 .band {
   background: #b7ff86;

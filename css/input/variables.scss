@@ -6,4 +6,5 @@ $body-line-height: 5em;
 
 // Breakpoints
 
-$small-media: new-breakpoint(max-width 480px 4);
+$small-media: new-breakpoint(max-width 600px);
+$large-media: new-breakpoint(min-width 601px);
