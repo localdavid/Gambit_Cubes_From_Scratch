@@ -1,5 +1,6 @@
 $font-stack:    Helvetica, sans-serif;
-$primary-color: #b7ff86;
+$primary-color: #7BCAE8;
+$primary-color-darken: darken($primary-color, 10%);
 $secondary-color: #93ffd5;
 $secondary-color-lighten: lighten($secondary-color, 15%);
 $body-line-height: 5em;

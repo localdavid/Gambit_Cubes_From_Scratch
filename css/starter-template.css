@@ -12,25 +12,6 @@ html {
   -moz-box-sizing: inherit;
   box-sizing: inherit; }
 
-body:before {
-  content: '';
-  display: inline-block;
-  background-image: -webkit-linear-gradient(left, transparent 0, yellow 0, yellow 6.1721527019%, transparent 6.1721527019%, transparent 8.5298042998%, yellow 8.5298042998%, yellow 14.7019570017%, transparent 14.7019570017%, transparent 17.0596085997%, yellow 17.0596085997%, yellow 23.2317613015%, transparent 23.2317613015%, transparent 25.5894128995%, yellow 25.5894128995%, yellow 31.7615656014%, transparent 31.7615656014%, transparent 34.1192171993%, yellow 34.1192171993%, yellow 40.2913699012%, transparent 40.2913699012%, transparent 42.6490214991%, yellow 42.6490214991%, yellow 48.821174201%, transparent 48.821174201%, transparent 51.178825799%, yellow 51.178825799%, yellow 57.3509785009%, transparent 57.3509785009%, transparent 59.7086300988%, yellow 59.7086300988%, yellow 65.8807828007%, transparent 65.8807828007%, transparent 68.2384343986%, yellow 68.2384343986%, yellow 74.4105871005%, transparent 74.4105871005%, transparent 76.7682386985%, yellow 76.7682386985%, yellow 82.9403914003%, transparent 82.9403914003%, transparent 85.2980429983%, yellow 85.2980429983%, yellow 91.4701957002%, transparent 91.4701957002%, transparent 93.8278472981%, yellow 93.8278472981%, yellow 100.0%, transparent 100.0%);
-  background-image: -moz-linear-gradient(left, transparent 0, yellow 0, yellow 6.1721527019%, transparent 6.1721527019%, transparent 8.5298042998%, yellow 8.5298042998%, yellow 14.7019570017%, transparent 14.7019570017%, transparent 17.0596085997%, yellow 17.0596085997%, yellow 23.2317613015%, transparent 23.2317613015%, transparent 25.5894128995%, yellow 25.5894128995%, yellow 31.7615656014%, transparent 31.7615656014%, transparent 34.1192171993%, yellow 34.1192171993%, yellow 40.2913699012%, transparent 40.2913699012%, transparent 42.6490214991%, yellow 42.6490214991%, yellow 48.821174201%, transparent 48.821174201%, transparent 51.178825799%, yellow 51.178825799%, yellow 57.3509785009%, transparent 57.3509785009%, transparent 59.7086300988%, yellow 59.7086300988%, yellow 65.8807828007%, transparent 65.8807828007%, transparent 68.2384343986%, yellow 68.2384343986%, yellow 74.4105871005%, transparent 74.4105871005%, transparent 76.7682386985%, yellow 76.7682386985%, yellow 82.9403914003%, transparent 82.9403914003%, transparent 85.2980429983%, yellow 85.2980429983%, yellow 91.4701957002%, transparent 91.4701957002%, transparent 93.8278472981%, yellow 93.8278472981%, yellow 100.0%, transparent 100.0%);
-  background-image: -ms-linear-gradient(left, transparent 0, yellow 0, yellow 6.1721527019%, transparent 6.1721527019%, transparent 8.5298042998%, yellow 8.5298042998%, yellow 14.7019570017%, transparent 14.7019570017%, transparent 17.0596085997%, yellow 17.0596085997%, yellow 23.2317613015%, transparent 23.2317613015%, transparent 25.5894128995%, yellow 25.5894128995%, yellow 31.7615656014%, transparent 31.7615656014%, transparent 34.1192171993%, yellow 34.1192171993%, yellow 40.2913699012%, transparent 40.2913699012%, transparent 42.6490214991%, yellow 42.6490214991%, yellow 48.821174201%, transparent 48.821174201%, transparent 51.178825799%, yellow 51.178825799%, yellow 57.3509785009%, transparent 57.3509785009%, transparent 59.7086300988%, yellow 59.7086300988%, yellow 65.8807828007%, transparent 65.8807828007%, transparent 68.2384343986%, yellow 68.2384343986%, yellow 74.4105871005%, transparent 74.4105871005%, transparent 76.7682386985%, yellow 76.7682386985%, yellow 82.9403914003%, transparent 82.9403914003%, transparent 85.2980429983%, yellow 85.2980429983%, yellow 91.4701957002%, transparent 91.4701957002%, transparent 93.8278472981%, yellow 93.8278472981%, yellow 100.0%, transparent 100.0%);
-  background-image: -o-linear-gradient(left, transparent 0, yellow 0, yellow 6.1721527019%, transparent 6.1721527019%, transparent 8.5298042998%, yellow 8.5298042998%, yellow 14.7019570017%, transparent 14.7019570017%, transparent 17.0596085997%, yellow 17.0596085997%, yellow 23.2317613015%, transparent 23.2317613015%, transparent 25.5894128995%, yellow 25.5894128995%, yellow 31.7615656014%, transparent 31.7615656014%, transparent 34.1192171993%, yellow 34.1192171993%, yellow 40.2913699012%, transparent 40.2913699012%, transparent 42.6490214991%, yellow 42.6490214991%, yellow 48.821174201%, transparent 48.821174201%, transparent 51.178825799%, yellow 51.178825799%, yellow 57.3509785009%, transparent 57.3509785009%, transparent 59.7086300988%, yellow 59.7086300988%, yellow 65.8807828007%, transparent 65.8807828007%, transparent 68.2384343986%, yellow 68.2384343986%, yellow 74.4105871005%, transparent 74.4105871005%, transparent 76.7682386985%, yellow 76.7682386985%, yellow 82.9403914003%, transparent 82.9403914003%, transparent 85.2980429983%, yellow 85.2980429983%, yellow 91.4701957002%, transparent 91.4701957002%, transparent 93.8278472981%, yellow 93.8278472981%, yellow 100.0%, transparent 100.0%);
-  background-image: linear-gradient(to left, transparent 0, yellow 0, yellow 6.1721527019%, transparent 6.1721527019%, transparent 8.5298042998%, yellow 8.5298042998%, yellow 14.7019570017%, transparent 14.7019570017%, transparent 17.0596085997%, yellow 17.0596085997%, yellow 23.2317613015%, transparent 23.2317613015%, transparent 25.5894128995%, yellow 25.5894128995%, yellow 31.7615656014%, transparent 31.7615656014%, transparent 34.1192171993%, yellow 34.1192171993%, yellow 40.2913699012%, transparent 40.2913699012%, transparent 42.6490214991%, yellow 42.6490214991%, yellow 48.821174201%, transparent 48.821174201%, transparent 51.178825799%, yellow 51.178825799%, yellow 57.3509785009%, transparent 57.3509785009%, transparent 59.7086300988%, yellow 59.7086300988%, yellow 65.8807828007%, transparent 65.8807828007%, transparent 68.2384343986%, yellow 68.2384343986%, yellow 74.4105871005%, transparent 74.4105871005%, transparent 76.7682386985%, yellow 76.7682386985%, yellow 82.9403914003%, transparent 82.9403914003%, transparent 85.2980429983%, yellow 85.2980429983%, yellow 91.4701957002%, transparent 91.4701957002%, transparent 93.8278472981%, yellow 93.8278472981%, yellow 100.0%, transparent 100.0%);
-  height: 100%;
-  left: 0;
-  margin: 0 auto;
-  max-width: 68em;
-  opacity: 0.4;
-  position: fixed;
-  right: 0;
-  width: 100%;
-  pointer-events: none;
-  z-index: 9999; }
-
 body {
   background-color: white; }
 
@@ -43,8 +24,7 @@ body {
 section#cubes {
   max-width: 68em;
   margin-left: auto;
-  margin-right: auto;
-  background-color: #d4eefa; }
+  margin-right: auto; }
   section#cubes:after {
     content: "";
     display: table;
@@ -52,7 +32,7 @@ section#cubes {
   section#cubes .cubes_left {
     height: 600px;
     line-height: 5em;
-    background: #a9daf4; }
+    background: #c6fdff; }
     @media screen and (max-width: 600px) {
       section#cubes .cubes_left {
         float: left;
@@ -72,7 +52,7 @@ section#cubes {
   section#cubes .cubes_two {
     height: 600px;
     line-height: 5em;
-    background: #a9daf4; }
+    background: #c6fdff; }
     @media screen and (max-width: 600px) {
       section#cubes .cubes_two {
         float: left;
@@ -92,7 +72,7 @@ section#cubes {
   section#cubes .cubes_right {
     height: 600px;
     line-height: 5em;
-    background: #a9daf4; }
+    background: #c6fdff; }
     @media screen and (max-width: 600px) {
       section#cubes .cubes_right {
         float: left;
@@ -109,14 +89,23 @@ section#cubes {
         width: 31.7615656014%; }
         section#cubes .cubes_right:last-child {
           margin-right: 0; } }
-
-.band {
-  background: #b7ff86;
-  height: 100px;
-  width: 80%;
-  padding: 30px;
-  margin: 30px;
-  border-radius: 12px; }
+  section#cubes span {
+    line-height: normal;
+    background: #eb7e00;
+    padding: 1px 5px 1px 5px; }
+  section#cubes h3 {
+    vertical-align: middle;
+    text-align: center;
+    line-height: 5px; }
+  section#cubes .band_box {
+    background-color: #7BCAE8;
+    background-image: -webkit-linear-gradient(#7BCAE8, #50b9e0);
+    background-image: linear-gradient(#7BCAE8, #50b9e0);
+    height: 100px;
+    width: 100%;
+    padding: 0 5% 0 5%; }
+    section#cubes .band_box h1 {
+      font-size: medium; }
 
 h1 {
   text-align: center; }
@@ -184,9 +173,6 @@ li {
   background-color: #0CF; }
 
 /* End Drop down menu to select weekend --------------------------------------------------------------------- */
-div {
-  border: 1px dashed gray; }
-
 .filters {
   background-color: blue;
   padding: 10px; }

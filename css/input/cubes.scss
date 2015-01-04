@@ -1,7 +1,15 @@
 @mixin column {
 	height: 600px;
     line-height: $body-line-height;
-    background: rgb(169, 218, 244);
+    background: #c6fdff;
+    
+	@include media($small-media) {
+		@include span-columns(12);
+	}
+	
+	@include media($large-media) {
+		@include span-columns(4);
+	}
 }
 
 
@@ -9,40 +17,40 @@ section {
 	
 	&#cubes {
 		@include outer-container;
-		background-color: rgb(212, 238, 250);
 		
 				
 		.cubes_left {
-			
 			@include column;
-			@include media($small-media) {
-				@include span-columns(12);
-			}
-			@include media($large-media) {
-				@include span-columns(4);
-			}
 		}
 		
 		.cubes_two  {
 			@include column;
-			@include media($small-media) {
-				@include span-columns(12);
-			}
-			@include media($large-media) {
-				@include span-columns(4);
-			}
 		}
-
 
 		.cubes_right {
 			@include column;
-			@include media($small-media) {
-				@include span-columns(12);
-			}
-			@include media($large-media) {
-				@include span-columns(4);
-			}
+		}
 		
+		span {
+			line-height: normal;
+			background: #eb7e00;
+			padding: 1px 5px 1px 5px;
+		}
+		
+		h3 {
+			vertical-align: middle;
+			text-align: center;
+			line-height: 5px; 
+		}
+		
+		.band_box {
+			@include linear-gradient($primary-color, $primary-color-darken );
+			height: 100px;
+			width: 100%;
+			padding: 0 5% 0 5%;
+			h1 {
+				font-size: medium;
+			}
 		}
 	}
 }
@@ -53,14 +61,7 @@ section {
 
 
 	
-.band {
-	background: $primary_color;
-	height: 100px;
-	width: 80%;
-	padding: 30px;
-	margin: 30px;
-	border-radius: 12px;
-}
+
 
 h1 {
 	text-align: center;
