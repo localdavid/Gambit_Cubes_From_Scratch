@@ -13,6 +13,9 @@
 }
 
 
+
+
+
 section {
 	
 	&#cubes {
@@ -31,26 +34,29 @@ section {
 			@include column;
 		}
 		
-		span {
-			line-height: normal;
-			background: #eb7e00;
-			padding: 1px 5px 1px 5px;
-		}
-		
-		h3 {
-			vertical-align: middle;
-			text-align: center;
-			line-height: 5px; 
-		}
-		
+				
 		.band_box {
 			@include linear-gradient($primary-color, $primary-color-darken );
 			height: 100px;
 			width: 100%;
 			padding: 0 5% 0 5%;
-			h1 {
-				font-size: medium;
+			
+			.flexbox {
+				display: flex;
+				justify-content: center;
+// 				flex-direction: column;
+				height: 100px;
+				>h3 {
+					font-size: 1.1em;
+					text-align: center;
+				}
+				>h1 {
+					font-size: 2em;
+					text-align: center;
+				}
 			}
+			
+
 		}
 	}
 }
@@ -63,9 +69,7 @@ section {
 	
 
 
-h1 {
-	text-align: center;
-}
+
 
 .band_name_box {
 	float: left;

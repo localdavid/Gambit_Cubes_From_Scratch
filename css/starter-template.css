@@ -89,14 +89,6 @@ section#cubes {
         width: 31.7615656014%; }
         section#cubes .cubes_right:last-child {
           margin-right: 0; } }
-  section#cubes span {
-    line-height: normal;
-    background: #eb7e00;
-    padding: 1px 5px 1px 5px; }
-  section#cubes h3 {
-    vertical-align: middle;
-    text-align: center;
-    line-height: 5px; }
   section#cubes .band_box {
     background-color: #7BCAE8;
     background-image: -webkit-linear-gradient(#7BCAE8, #50b9e0);
@@ -104,11 +96,16 @@ section#cubes {
     height: 100px;
     width: 100%;
     padding: 0 5% 0 5%; }
-    section#cubes .band_box h1 {
-      font-size: medium; }
-
-h1 {
-  text-align: center; }
+    section#cubes .band_box .flexbox {
+      display: flex;
+      justify-content: center;
+      height: 100px; }
+      section#cubes .band_box .flexbox > h3 {
+        font-size: 1.1em;
+        text-align: center; }
+      section#cubes .band_box .flexbox > h1 {
+        font-size: 2em;
+        text-align: center; }
 
 .band_name_box {
   float: left;
