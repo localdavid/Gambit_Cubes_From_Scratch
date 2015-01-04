@@ -13,10 +13,17 @@
 }
 
 
-
+h1.day{
+	font-family: $secondary-font;
+	font: 400;
+	color: $primary-color-darken;
+	text-align: center;
+}
 
 
 section {
+	
+
 	
 	&#cubes {
 		@include outer-container;
@@ -52,6 +59,8 @@ section {
 			font-size: 1.1em;
 			text-align: center;
 			line-height: .5em;
+			font-family: $secondary-font;
+			font-weight: 700;
 		}
 		
 		h1 {

@@ -2,7 +2,7 @@
  * http://neat.bourbon.io
  * Copyright 2012-2014 thoughtbot, inc.
  * MIT License */
-@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url(http://fonts.googleapis.com/css?family=Arvo:400,700|Oswald:700);
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -20,6 +20,12 @@ body {
   /* 	padding-top:300px; */
   margin: 50px;
   border: 2px solid black;
+  text-align: center; }
+
+h1.day {
+  font-family: "Arvo", serif;
+  font: 400;
+  color: #50b9e0;
   text-align: center; }
 
 section#cubes {
@@ -102,7 +108,9 @@ section#cubes {
     section#cubes .text h3 {
       font-size: 1.1em;
       text-align: center;
-      line-height: .5em; }
+      line-height: .5em;
+      font-family: "Arvo", serif;
+      font-weight: 700; }
     section#cubes .text h1 {
       font-size: 2em;
       line-height: 1em;
