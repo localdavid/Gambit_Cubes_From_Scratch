@@ -1,6 +1,6 @@
 @mixin column {
 	height: 600px;
-    line-height: $body-line-height;
+//     line-height: $body-line-height;
     background: #c6fdff;
     
 	@include media($small-media) {
@@ -39,27 +39,31 @@ section {
 			@include linear-gradient($primary-color, $primary-color-darken );
 			height: 100px;
 			width: 100%;
-			padding: 0 5% 0 5%;
+			display: table;
+			vertical-align: middle;
+			text-align: center;
+		}
 			
-			.flexbox {
-				display: flex;
-				justify-content: center;
-// 				flex-direction: column;
-				height: 100px;
-				>h3 {
-					font-size: 1.1em;
-					text-align: center;
-				}
-				>h1 {
-					font-size: 2em;
-					text-align: center;
-				}
+		.text {
+			display: table-cell;
+			vertical-align: middle;
+
+		h3 {
+			font-size: 1.1em;
+			text-align: center;
+			line-height: .5em;
+		}
+		
+		h1 {
+			font-size: 2em;
+// 				text-align: center;
+			line-height: 1em;
 			}
 			
-
 		}
 	}
 }
+
 
 
 

@@ -31,7 +31,6 @@ section#cubes {
     clear: both; }
   section#cubes .cubes_left {
     height: 600px;
-    line-height: 5em;
     background: #c6fdff; }
     @media screen and (max-width: 600px) {
       section#cubes .cubes_left {
@@ -51,7 +50,6 @@ section#cubes {
           margin-right: 0; } }
   section#cubes .cubes_two {
     height: 600px;
-    line-height: 5em;
     background: #c6fdff; }
     @media screen and (max-width: 600px) {
       section#cubes .cubes_two {
@@ -71,7 +69,6 @@ section#cubes {
           margin-right: 0; } }
   section#cubes .cubes_right {
     height: 600px;
-    line-height: 5em;
     background: #c6fdff; }
     @media screen and (max-width: 600px) {
       section#cubes .cubes_right {
@@ -95,17 +92,19 @@ section#cubes {
     background-image: linear-gradient(#7BCAE8, #50b9e0);
     height: 100px;
     width: 100%;
-    padding: 0 5% 0 5%; }
-    section#cubes .band_box .flexbox {
-      display: flex;
-      justify-content: center;
-      height: 100px; }
-      section#cubes .band_box .flexbox > h3 {
-        font-size: 1.1em;
-        text-align: center; }
-      section#cubes .band_box .flexbox > h1 {
-        font-size: 2em;
-        text-align: center; }
+    display: table;
+    vertical-align: middle;
+    text-align: center; }
+  section#cubes .text {
+    display: table-cell;
+    vertical-align: middle; }
+    section#cubes .text h3 {
+      font-size: 1.1em;
+      text-align: center;
+      line-height: .5em; }
+    section#cubes .text h1 {
+      font-size: 2em;
+      line-height: 1em; }
 
 .band_name_box {
   float: left;
