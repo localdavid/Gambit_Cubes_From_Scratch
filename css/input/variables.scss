@@ -1,9 +1,15 @@
-$font-stack:    Helvetica, sans-serif;
 $primary-color: #7BCAE8;
 $primary-color-darken: darken($primary-color, 10%);
 $secondary-color: #93ffd5;
 $secondary-color-lighten: lighten($secondary-color, 15%);
 $body-line-height: 5em;
+
+
+// Google Fonts
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+
+// Font Variables
+$primary-font: 'Oswald', sans-serif;
 
 // Breakpoints
 
