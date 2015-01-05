@@ -1,18 +1,16 @@
-section {
-	&#navigation{
-		background-color: #ddce46
-	}
-}
+
 
 /* Drop down menu to select weekend --------------------------------------------------------------------- */
 /* .myMenu is the class for the whole menu */
 .myMenu {
 	margin:0;
 	padding:0;
+	width: 100%;
 	}
   
   /* li is the top level box, the first one you see */
 	li {
+		width: 100%;
 		list-style:none;
 		float:left;
 		font:12px Arial, Helvetica, sans-serif #111;
@@ -30,6 +28,7 @@ section {
           }
     /* li ul is the container for the boxes that come out when the top box is expanded */
       ul {
+	    width: 100%;
         position:absolute;
         visibility:hidden;
         border-top:1px solid #fff;
