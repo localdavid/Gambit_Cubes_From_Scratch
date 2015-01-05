@@ -1,4 +1,7 @@
-
+.filters {
+	// This puts the divs into the Neat grid
+	@include outer-container;
+}
 
 /* Drop down menu to select weekend --------------------------------------------------------------------- */
 /* .myMenu is the class for the whole menu */
