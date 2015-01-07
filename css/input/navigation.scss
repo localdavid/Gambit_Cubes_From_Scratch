@@ -81,9 +81,19 @@
 	font-size: 1.1em;
 	color: white;
 	background-color: $primary-color-darken;
-	border: none;
+	border: 1 pt;
 	border-radius: 3px;
+	border-style: solid;
+	border-color: $primary-color-darken;
 	padding: 10px 15px 10px 15px;
 	margin: 8px;
+	&:hover {
+		color: white;
+		background-color: $primary-color;
+	}
+	&:active {
+		color: $primary-color-darken;
+		background-color: white;
+	}
 }
 

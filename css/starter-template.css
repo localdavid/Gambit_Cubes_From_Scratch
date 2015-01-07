@@ -198,7 +198,15 @@ li {
   font-size: 1.1em;
   color: white;
   background-color: #50b9e0;
-  border: none;
+  border: 1 pt;
   border-radius: 3px;
+  border-style: solid;
+  border-color: #50b9e0;
   padding: 10px 15px 10px 15px;
   margin: 8px; }
+  .band_btn:hover {
+    color: white;
+    background-color: #7BCAE8; }
+  .band_btn:active {
+    color: #50b9e0;
+    background-color: white; }
