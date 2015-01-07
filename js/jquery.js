@@ -9,11 +9,11 @@ $(document).ready(function() {
   // When the mouse rolls over the list item, the function looks for an unordered list within it. If one is found, it sets the style property visibility to visible.
 		function openSubMenu() {
 			$(this).find('ul').css('visibility', 'visible');	
-		};
+		}
 		
 		function closeSubMenu() {
 			$(this).find('ul').css('visibility', 'hidden');	
-		};
+		}
 				   
 });
 
@@ -33,7 +33,8 @@ $(document).ready(function() {
 	$(".count_basin_button").click(function() {
 		//Filter to show only alex's picks
 		// Goes through all divs with class=band. Those that don't have class=headliner are toggled on and off
-		$("div .band").not(".count_basin").toggle();
+		$(this).toggleClass('count_basin_button_clicked');
+		$("div .band").not(".count_basin_button").toggle();
 	});
 		
 	$(".cover_button").click(function() {

@@ -1,5 +1,6 @@
 $primary-color: #7BCAE8;
 $primary-color-darken: darken($primary-color, 10%);
+$primary-color-lighten: lighten($primary-color, 15%);
 $secondary-color: #93ffd5;
 $secondary-color-lighten: lighten($secondary-color, 15%);
 $body-line-height: 5em;

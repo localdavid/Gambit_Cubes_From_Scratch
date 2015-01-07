@@ -87,13 +87,17 @@
 	border-color: $primary-color-darken;
 	padding: 10px 15px 10px 15px;
 	margin: 8px;
-	&:hover {
-		color: white;
-		background-color: $primary-color;
-	}
-	&:active {
-		color: $primary-color-darken;
-		background-color: white;
+}
+	
+.count_basin_button {
+	@extend .band_btn;
+	& .clicked{
+		background-color: red;
 	}
 }
 
+.count_basin_button_clicked {
+	@extend .band_btn;
+	color: $primary-color-darken;
+	background-color: white;
+}
