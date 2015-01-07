@@ -1,8 +1,3 @@
-.filters {
-	// This puts the divs into the Neat grid
-	@include outer-container;
-}
-
 /* Drop down menu to select weekend --------------------------------------------------------------------- */
 /* .myMenu is the class for the whole menu */
 .myMenu {
@@ -58,4 +53,37 @@
 	background-color:#0CF;	
 }
 
-/* End Drop down menu to select weekend --------------------------------------------------------------------- */
+
+
+
+
+
+// Filter by band info
+
+.filters {
+	// This puts the divs into the Neat grid
+	@include outer-container;
+	background-color: white;
+	padding: 10px;
+}
+
+@mixin filter_sort_bar {
+	height: 40px;
+	width: 100%;
+}
+
+.date_select_div {
+	background-color: gray;
+	@include filter_sort_bar;
+}
+
+.band_btn {
+	font-size: 1.1em;
+	color: white;
+	background-color: $primary-color-darken;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 15px 10px 15px;
+	margin: 8px;
+}
+
