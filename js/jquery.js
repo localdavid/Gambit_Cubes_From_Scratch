@@ -34,7 +34,7 @@ $(document).ready(function() {
 		//Filter to show only alex's picks
 		// Goes through all divs with class=band. Those that don't have class=headliner are toggled on and off
 		$(this).toggleClass('count_basin_button_clicked');
-		$("div .band").not(".count_basin_button").toggle();
+		$("div .band").not(".count_basin").toggle();
 	});
 		
 	$(".cover_button").click(function() {

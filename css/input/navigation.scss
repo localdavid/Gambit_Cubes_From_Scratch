@@ -73,6 +73,7 @@
 }
 
 .date_select_div {
+// 	@include outer-container;
 	background-color: gray;
 	@include filter_sort_bar;
 }
@@ -88,16 +89,14 @@
 	padding: 10px 15px 10px 15px;
 	margin: 8px;
 }
-	
+
 .count_basin_button {
 	@extend .band_btn;
-	& .clicked{
-		background-color: red;
-	}
 }
+	
 
 .count_basin_button_clicked {
-	@extend .band_btn;
+	@extend .count_basin_button;
 	color: $primary-color-darken;
 	background-color: white;
 }

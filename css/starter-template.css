@@ -205,9 +205,6 @@ li {
   padding: 10px 15px 10px 15px;
   margin: 8px; }
 
-.count_basin_button .clicked {
-  background-color: red; }
-
 .count_basin_button_clicked {
   color: #50b9e0;
   background-color: white; }
