@@ -94,14 +94,23 @@ section#cubes {
         section#cubes .cubes_right:last-child {
           margin-right: 0; } }
   section#cubes .band_box {
-    background-color: #7BCAE8;
-    background-image: -webkit-linear-gradient(#7BCAE8, #50b9e0);
-    background-image: linear-gradient(#7BCAE8, #50b9e0);
     height: 100px;
     width: 100%;
     display: table;
     vertical-align: middle;
-    text-align: center; }
+    text-align: center;
+    background-color: #7BCAE8;
+    background-image: -webkit-linear-gradient(#7BCAE8, #50b9e0);
+    background-image: linear-gradient(#7BCAE8, #50b9e0); }
+  section#cubes .band_box_basin_pick {
+    height: 100px;
+    width: 100%;
+    display: table;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #adffc4;
+    background-image: -webkit-linear-gradient(#adffc4, #7aff9f);
+    background-image: linear-gradient(#adffc4, #7aff9f); }
   section#cubes .text {
     display: table-cell;
     vertical-align: middle; }

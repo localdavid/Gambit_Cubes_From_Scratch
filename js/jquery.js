@@ -31,10 +31,10 @@ $(document).ready(function() {
 	});
 	
 	$(".count_basin_button").click(function() {
-		//Filter to show only alex's picks
+		//Filter to show only Basin's picks
 		// Goes through all divs with class=band. Those that don't have class=headliner are toggled on and off
 		$(this).toggleClass('count_basin_button_clicked');
-		$("div .band").not(".count_basin").toggle();
+		$("div .band").not("").toggle();
 	});
 		
 	$(".cover_button").click(function() {
