@@ -1,9 +1,20 @@
-/* Drop down menu to select weekend --------------------------------------------------------------------- */
+// Drop down menu to select weekend
+
+	.date_select_div {
+	height: 100px;
+	width: 100%;
+}
+
 /* .myMenu is the class for the whole menu */
 .myMenu {
 	margin:0;
 	padding:0;
 	width: 100%;
+	font-size: 2em;
+	font-family: $secondary-font;
+	font-weight: 400;
+	color: white;
+	background-color: $primary-color;
 	}
   
   /* li is the top level box, the first one you see */
@@ -15,15 +26,13 @@
      a:link, a:visited {
         display:block;
         text-decoration:none;
-        background-color:#09F;
+        background-color:$primary-color-darken;
         padding: 0.5em 2em;
         margin:0;
         border-right: 1px solid #fff;
         color:#111;
         }
-        a:hover {
-          background-color:#0CF;	
-          }
+
     /* li ul is the container for the boxes that come out when the top box is expanded */
       ul {
 	    width: 100%;
@@ -36,7 +45,7 @@
           display:inline;
           float:none;
           a:link, .myMenu li ul li a:visited {
-            background-color:#09F;
+            background-color:$primary-color;
             width:auto;
           }
           }
@@ -45,12 +54,12 @@
   }
 
 .myMenu li ul li a:link, .myMenu li ul li a:visited {
-	background-color:#09F;
+	background-color:$primary-color;
 	width:auto;
 }
 
 .myMenu li ul li a:hover {
-	background-color:#0CF;	
+	background-color:$primary-color-darken2;	
 }
 
 
@@ -67,16 +76,6 @@
 	padding: 10px;
 }
 
-@mixin filter_sort_bar {
-	height: 40px;
-	width: 100%;
-}
-
-.date_select_div {
-// 	@include outer-container;
-	background-color: gray;
-	@include filter_sort_bar;
-}
 
 .band_btn {
 	font-size: 1.1em;

@@ -133,12 +133,20 @@ section#cubes {
   content: url(/img/check.svg);
   width: 100%; }
 
-/* Drop down menu to select weekend --------------------------------------------------------------------- */
+.date_select_div {
+  height: 100px;
+  width: 100%; }
+
 /* .myMenu is the class for the whole menu */
 .myMenu {
   margin: 0;
   padding: 0;
-  width: 100%; }
+  width: 100%;
+  font-size: 2em;
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  color: white;
+  background-color: #7BCAE8; }
 
 /* li is the top level box, the first one you see */
 li {
@@ -150,13 +158,11 @@ li {
   li a:link, li a:visited {
     display: block;
     text-decoration: none;
-    background-color: #09F;
+    background-color: #50b9e0;
     padding: 0.5em 2em;
     margin: 0;
     border-right: 1px solid #fff;
     color: #111; }
-  li a:hover {
-    background-color: #0CF; }
   li ul {
     width: 100%;
     position: absolute;
@@ -168,15 +174,15 @@ li {
       display: inline;
       float: none; }
       li ul li a:link, li ul li .myMenu li ul li a:visited {
-        background-color: #09F;
+        background-color: #7BCAE8;
         width: auto; }
 
 .myMenu li ul li a:link, .myMenu li ul li a:visited {
-  background-color: #09F;
+  background-color: #7BCAE8;
   width: auto; }
 
 .myMenu li ul li a:hover {
-  background-color: #0CF; }
+  background-color: #2296c2; }
 
 .filters {
   max-width: 68em;
@@ -188,11 +194,6 @@ li {
     content: "";
     display: table;
     clear: both; }
-
-.date_select_div {
-  background-color: gray;
-  height: 40px;
-  width: 100%; }
 
 .band_btn, .count_basin_button, .count_basin_button_clicked {
   font-size: 1.1em;
