@@ -14,6 +14,9 @@ $(document).ready(function() {
 		function closeSubMenu() {
 			$(this).find('ul').css('visibility', 'hidden');	
 		}
+		
+		
+		// Make so when you click on a list item, it toggles a div
 				   
 });
 
@@ -21,7 +24,8 @@ $(document).ready(function() {
 
 
 
-// Cubes ------------------------------------
+
+// Navigation buttons
 
 $(document).ready(function() {
 	$(".headliner_button").click(function() {
