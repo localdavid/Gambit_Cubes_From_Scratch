@@ -125,6 +125,9 @@ section#cubes {
       line-height: 1em;
       font-family: "Oswald", sans-serif; }
 
+.full_cube {
+  display: none; }
+
 .band_name_box {
   float: left;
   width: 80%;

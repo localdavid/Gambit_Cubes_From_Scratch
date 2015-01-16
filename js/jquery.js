@@ -17,8 +17,15 @@ $(document).ready(function() {
 		
 		
 		// Make so when you click on a list item, it toggles a div
+		
+	$('.articlelist ul li').click(function() {
+	    var i = $(this).index();
+	    $('.fullarticle').hide();
+	    $('#article' + (i+1)).show();
+	});
 				   
 });
+
 
 
 
