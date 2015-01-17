@@ -43,7 +43,7 @@ $(document).ready(function() {
 
 
 
-// Navigation buttons
+// Filter buttons
 
 $(document).ready(function() {
 	$(".headliner_button").click(function() {
@@ -51,13 +51,16 @@ $(document).ready(function() {
 		// Goes through all divs with class=band. Those that don't have class=headliner are toggled on and off
 		$("div .band").not(".headliner").toggle();
 	});
+
 	
-	$(".count_basin_button").click(function() {
-		//Filter to show only Basin's picks
-		// Goes through all divs with class=band. Those that don't have class=headliner are toggled on and off
-		$(this).toggleClass('count_basin_button_clicked');
-		$("div .band").not("").toggle();
-	});
+//Filter to show only Count Basin's picks
+
+$(".count_basin_button").click(function() {
+	// Selects only divs that are direct descendents of .cube_column and that aren't .band_box_basin_pick (Count Basins picks)
+	$(".cube_column").children("div").not(".band_box_basin_pick").toggle();
+});
+	
+		
 		
 	$(".cover_button").click(function() {
 		//Filter to show only cover story subjects
