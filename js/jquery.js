@@ -1,3 +1,7 @@
+/*jslint browser: true*/
+/*global $, jQuery, alert*/
+
+
 // Weekend select drop down menu
 
 $(document).ready(function() {
@@ -14,17 +18,24 @@ $(document).ready(function() {
 		function closeSubMenu() {
 			$(this).find('ul').css('visibility', 'hidden');	
 		}
-		
-		
-		// Make so when you click on a list item, it toggles a div
-		
-	$('.articlelist ul li').click(function() {
-	    var i = $(this).index();
-	    $('.fullarticle').hide();
-	    $('#article' + (i+1)).show();
-	});
+
 				   
 });
+
+
+
+// Make so when you click on a list item, it toggles a div
+
+
+$(document).ready(function() {
+	$('.date_select_div ul li').click(function() {
+	    var i = $(this).index();
+	    $('.full_cube').hide();
+	    $('#day' + (i+1)).show();
+	});
+});
+
+
 
 
 
