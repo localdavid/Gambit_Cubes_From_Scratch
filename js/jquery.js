@@ -28,7 +28,7 @@ $(document).ready(function() {
 
 
 $(document).ready(function() {
-	$('.date_select_div ul li').click(function() {
+	$('.date_select_div ul li ul li').click(function() {
 	    var i = $(this).index();
 	    $('.full_cube').hide();
 	    $('#day' + (i+1)).show();
