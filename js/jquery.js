@@ -56,8 +56,10 @@ $(document).ready(function() {
 //Filter to show only Count Basin's picks
 
 $(".count_basin_button").click(function() {
-	// Selects only divs that are direct descendents of .cube_column and that aren't .band_box_basin_pick (Count Basins picks)
-	$(".cube_column").children("div").not(".band_box_basin_pick").toggle();
+	// Changes class of .count_basin_button
+	$(this).toggleClass('count_basin_button_clicked');
+	// Selects only divs that are direct descendents of .cube_column and that aren't .band_box_basin_pick (Count Basins picks)	
+	$(".cube_column").children("div").not(".band_box_basin_pick").fadeToggle(200);
 });
 	
 		
