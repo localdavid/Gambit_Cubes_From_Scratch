@@ -91,11 +91,13 @@
 
 .count_basin_button {
 	@extend .band_btn;
+	background-color: $green-color-darken;
+	border-color: $green-color-darken;
 }
 	
 
 .count_basin_button_clicked {
 	@extend .count_basin_button;
-	color: $primary-color-darken;
+	color: $green-color-darken;
 	background-color: white;
 }

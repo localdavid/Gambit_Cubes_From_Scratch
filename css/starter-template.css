@@ -218,6 +218,10 @@ li {
   padding: 10px 15px 10px 15px;
   margin: 8px; }
 
+.count_basin_button, .count_basin_button_clicked {
+  background-color: #7aff9f;
+  border-color: #7aff9f; }
+
 .count_basin_button_clicked {
-  color: #50b9e0;
+  color: #7aff9f;
   background-color: white; }
