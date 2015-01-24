@@ -110,38 +110,52 @@ section#cubes {
     text-align: center;
     background-color: #adffc4;
     background-image: -webkit-linear-gradient(#adffc4, #7aff9f);
-    background-image: linear-gradient(#adffc4, #7aff9f); }
-  section#cubes .text {
-    display: table-cell;
-    vertical-align: middle; }
-    section#cubes .text h3 {
-      font-size: 1.1em;
-      text-align: center;
-      line-height: .5em;
-      font-family: "Arvo", serif;
-      font-weight: 700; }
-    section#cubes .text h1 {
-      font-size: 2em;
-      line-height: 1em;
-      font-family: "Oswald", sans-serif; }
-
-.full_cube {
+    background-image: linear-gradient(#adffc4, #7aff9f);
+    background-image: url("http://placehold.it/65x65");
+    background-repeat: no-repeat;
+    background-position: 95% 10%;
+    background-image: url("http://placehold.it/65x65");
+    /* fallback */
+    background-repeat: no-repeat;
+    background-image: url("http://placehold.it/65x65"), -webkit-gradient(linear, left top, left bottom, from(#adffc4), to(#7aff9f));
+    /* Saf4+, Chrome */
+    	/*
+    /*
+    		background-image: url(IMAGE_URL), -webkit-linear-gradient(top, #6cab26, #6ceb86); /* Chrome 10+, Saf5.1+ */
+    background-image: url(IMAGE_URL), -moz-linear-gradient(top, #6cab26, #6ceb86);
+    /* FF3.6+ */
+    background-image: url(IMAGE_URL), -ms-linear-gradient(top, #6cab26, #6ceb86);
+    /* IE10 */
+    background-image: url(IMAGE_URL), -o-linear-gradient(top, #6cab26, #6ceb86);
+    /* Opera 11.10+ */
+    background-image: url(IMAGE_URL), linear-gradient(top bottom, #6cab26, #6ceb86);
+    /* W3C */ }
+    section#cubes .band_box_basin_pick .text {
+      display: table-cell;
+      vertical-align: middle; }
+      section#cubes .band_box_basin_pick .text h3 {
+        font-size: 1.1em;
+        text-align: center;
+        line-height: .5em;
+        font-family: "Arvo", serif;
+        font-weight: 700; }
+      section#cubes .band_box_basin_pick .text h1 {
+        font-size: 2em;
+        line-height: 1em;
+        font-family: "Oswald", sans-serif; }
+section .full_cube {
   display: none; }
-
-.band_name_box {
+section .band_name_box {
   float: left;
   width: 80%;
   background: gray; }
-
-.icon_box {
+section .icon_box {
   float: right;
   width: 20%;
   height: 90%; }
-
-.g_box {
+section .g_box {
   content: url(/img/G.svg); }
-
-.pick_box {
+section .pick_box {
   content: url(/img/check.svg);
   width: 100%; }
 

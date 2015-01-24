@@ -55,8 +55,23 @@ section {
 		
 		.band_box_basin_pick {
 			@include band_box_template;
-			@include linear-gradient($green-color, $green-color-darken );			
-		}
+			@include linear-gradient($green-color, $green-color-darken );
+			background-image: url('http://placehold.it/65x65');
+			background-repeat: no-repeat;
+			background-position: 95% 10%;
+			
+			
+			background-image: url('http://placehold.it/65x65'); /* fallback */
+			background-repeat: no-repeat;
+			background-image: url('http://placehold.it/65x65'), -webkit-gradient(linear, left top, left bottom, from($green-color), to($green-color-darken)); /* Saf4+, Chrome */
+		/*
+	/*
+			background-image: url(IMAGE_URL), -webkit-linear-gradient(top, #6cab26, #6ceb86); /* Chrome 10+, Saf5.1+ */
+			background-image: url(IMAGE_URL),    -moz-linear-gradient(top, #6cab26, #6ceb86); /* FF3.6+ */
+			background-image: url(IMAGE_URL),     -ms-linear-gradient(top, #6cab26, #6ceb86); /* IE10 */
+			background-image: url(IMAGE_URL),      -o-linear-gradient(top, #6cab26, #6ceb86); /* Opera 11.10+ */
+			background-image: url(IMAGE_URL),         linear-gradient(top bottom, #6cab26, #6ceb86); /* W3C */			
+		
 			
 		.text {
 			display: table-cell;
@@ -117,3 +132,4 @@ section {
 
 
 
+}
