@@ -226,7 +226,7 @@ li {
     display: table;
     clear: both; }
 
-.band_btn, .count_basin_button, .count_basin_button_clicked {
+.band_btn, .count_basin_button, .count_basin_button_clicked, .performer_pick_button, .performer_pick_button_clicked {
   font-size: 1.1em;
   color: white;
   background-color: #50b9e0;
@@ -243,4 +243,12 @@ li {
 
 .count_basin_button_clicked {
   color: #7aff9f;
+  background-color: white; }
+
+.performer_pick_button, .performer_pick_button_clicked {
+  background-color: #c12fdd;
+  border-color: #c12fdd; }
+
+.performer_pick_button_clicked {
+  color: #c12fdd;
   background-color: white; }

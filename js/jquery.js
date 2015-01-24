@@ -71,3 +71,13 @@ $(".count_basin_button").click(function() {
 	});
 });
 
+
+//Filter to show only Performer picks
+
+$(".performer_pick_button").click(function() {
+	// Changes class of .performer_pick_button
+	$(this).toggleClass('count_basin_button_clicked');
+	// Selects only divs that are direct descendents of .cube_column and that aren't .performer_pick_button (Performer picks)	
+	$(".cube_column").children("div").not(".performer_pick_button").fadeToggle(200);
+});
+
