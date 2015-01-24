@@ -22,12 +22,6 @@ body {
   border: 2px solid black;
   text-align: center; }
 
-h1.day {
-  font-family: "Arvo", serif;
-  font: 400;
-  color: #50b9e0;
-  text-align: center; }
-
 section#cubes {
   max-width: 68em;
   margin-left: auto;
@@ -119,9 +113,9 @@ section#cubes {
     background-repeat: no-repeat;
     background-image: url("http://placehold.it/65x65"), -webkit-gradient(linear, left top, left bottom, from(#adffc4), to(#7aff9f));
     /* Saf4+, Chrome */
-    	/*
     /*
-    		background-image: url(IMAGE_URL), -webkit-linear-gradient(top, #6cab26, #6ceb86); /* Chrome 10+, Saf5.1+ */
+    /*
+    	background-image: url(IMAGE_URL), -webkit-linear-gradient(top, #6cab26, #6ceb86); /* Chrome 10+, Saf5.1+ */
     background-image: url(IMAGE_URL), -moz-linear-gradient(top, #6cab26, #6ceb86);
     /* FF3.6+ */
     background-image: url(IMAGE_URL), -ms-linear-gradient(top, #6cab26, #6ceb86);
@@ -130,34 +124,45 @@ section#cubes {
     /* Opera 11.10+ */
     background-image: url(IMAGE_URL), linear-gradient(top bottom, #6cab26, #6ceb86);
     /* W3C */ }
-    section#cubes .band_box_basin_pick .text {
-      display: table-cell;
-      vertical-align: middle; }
-      section#cubes .band_box_basin_pick .text h3 {
-        font-size: 1.1em;
-        text-align: center;
-        line-height: .5em;
-        font-family: "Arvo", serif;
-        font-weight: 700; }
-      section#cubes .band_box_basin_pick .text h1 {
-        font-size: 2em;
-        line-height: 1em;
-        font-family: "Oswald", sans-serif; }
-section .full_cube {
+  section#cubes .text {
+    display: table-cell;
+    vertical-align: middle; }
+  section#cubes h3 {
+    font-size: 1.1em;
+    text-align: center;
+    line-height: .5em;
+    font-family: "Arvo", serif;
+    font-weight: 700; }
+  section#cubes h1 {
+    font-size: 2em;
+    line-height: 1em;
+    font-family: "Oswald", sans-serif; }
+
+.full_cube {
   display: none; }
-section .band_name_box {
+
+.band_name_box {
   float: left;
   width: 80%;
   background: gray; }
-section .icon_box {
+
+.icon_box {
   float: right;
   width: 20%;
   height: 90%; }
-section .g_box {
+
+.g_box {
   content: url(/img/G.svg); }
-section .pick_box {
+
+.pick_box {
   content: url(/img/check.svg);
   width: 100%; }
+
+h1.stage_name {
+  font-family: "Arvo", serif;
+  font: 400;
+  color: #50b9e0;
+  text-align: center; }
 
 .date_select_div {
   height: 100px;
