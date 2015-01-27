@@ -1,3 +1,10 @@
+// Hide filters on page load
+
+$(document).ready(function() {
+	$('.filters').hide();
+});
+
+
 
 // Weekend select drop down menu
 
@@ -26,6 +33,9 @@ $(document).ready(function() {
 	    var i = $(this).index();
 	    $('.full_cube').hide();
 	    $('#day' + (i+1)).show();
+	    
+	    // Shows filters when a day is clicked
+	    $('.filters').show();
 	});
 });
 
