@@ -1,7 +1,3 @@
-/* Neat 1.7.0
- * http://neat.bourbon.io
- * Copyright 2012-2014 thoughtbot, inc.
- * MIT License */
 @import url(http://fonts.googleapis.com/css?family=Arvo:400,700|Oswald:700);
 html {
   -webkit-box-sizing: border-box;
@@ -26,10 +22,10 @@ section#cubes {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto; }
-  section#cubes:after {
+  section#cubes::after {
+    clear: both;
     content: "";
-    display: table;
-    clear: both; }
+    display: table; }
   section#cubes .cubes_left {
     height: 600px;
     background: #c6fdff; }
@@ -105,25 +101,18 @@ section#cubes {
     background-color: #adffc4;
     background-image: -webkit-linear-gradient(#adffc4, #7aff9f);
     background-image: linear-gradient(#adffc4, #7aff9f);
-    background-image: url("http://placehold.it/65x65");
+    background-image: url(CountBasin.svg);
     background-repeat: no-repeat;
-    background-position: 95% 10%;
-    background-image: url("http://placehold.it/65x65");
-    /* fallback */
-    background-repeat: no-repeat;
-    background-image: url("http://placehold.it/65x65"), -webkit-gradient(linear, left top, left bottom, from(#adffc4), to(#7aff9f));
-    /* Saf4+, Chrome */
-    /*
-    /*
-    	background-image: url(IMAGE_URL), -webkit-linear-gradient(top, #6cab26, #6ceb86); /* Chrome 10+, Saf5.1+ */
-    background-image: url(IMAGE_URL), -moz-linear-gradient(top, #6cab26, #6ceb86);
-    /* FF3.6+ */
-    background-image: url(IMAGE_URL), -ms-linear-gradient(top, #6cab26, #6ceb86);
-    /* IE10 */
-    background-image: url(IMAGE_URL), -o-linear-gradient(top, #6cab26, #6ceb86);
-    /* Opera 11.10+ */
-    background-image: url(IMAGE_URL), linear-gradient(top bottom, #6cab26, #6ceb86);
-    /* W3C */ }
+    background-position: 95% 10%; }
+  section#cubes .band_box_performer_pick {
+    height: 100px;
+    width: 100%;
+    display: table;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #ce5be4;
+    background-image: -webkit-linear-gradient(#ce5be4, #c12fdd);
+    background-image: linear-gradient(#ce5be4, #c12fdd); }
   section#cubes .text {
     display: table-cell;
     vertical-align: middle; }
@@ -221,10 +210,10 @@ li {
   margin-right: auto;
   background-color: white;
   padding: 10px; }
-  .filters:after {
+  .filters::after {
+    clear: both;
     content: "";
-    display: table;
-    clear: both; }
+    display: table; }
 
 .band_btn, .count_basin_button, .count_basin_button_clicked, .performer_pick_button, .performer_pick_button_clicked {
   font-size: 1.1em;
