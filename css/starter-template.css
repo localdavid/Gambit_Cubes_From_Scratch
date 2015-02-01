@@ -98,12 +98,10 @@ section#cubes {
     display: table;
     vertical-align: middle;
     text-align: center;
-    background-color: #adffc4;
-    background-image: -webkit-linear-gradient(#adffc4, #7aff9f);
-    background-image: linear-gradient(#adffc4, #7aff9f);
-    background-image: url(CountBasin.svg);
-    background-repeat: no-repeat;
-    background-position: 95% 10%; }
+    background-image: url(/img/CountBasin.svg), -webkit-gradient(linear, left top, left bottom, from(#adffc4), to(#7aff9f));
+    background-repeat: no-repeat, repeat;
+    background-position: 95% 10%, 0 0;
+    background-size: 50px, auto; }
   section#cubes .band_box_performer_pick {
     height: 100px;
     width: 100%;

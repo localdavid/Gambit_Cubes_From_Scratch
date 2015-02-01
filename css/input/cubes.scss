@@ -51,15 +51,14 @@ section {
 			@include linear-gradient($primary-color, $primary-color-darken );
 		}
 		
+		
 		.band_box_basin_pick {
 			@include band_box_template;
-			@include linear-gradient($green-color, $green-color-darken );
-			background-image: url(CountBasin.svg);
-			background-repeat: no-repeat;
-			background-position: 95% 10%;
-			
-			
-		}
+			background-image: url(/img/CountBasin.svg), -webkit-gradient(linear, left top, left bottom, from($green-color), to($green-color-darken));
+			background-repeat: no-repeat, repeat;
+			background-position: 95% 10%, 0 0;
+			background-size: 50px, auto;
+		}		
 		
 		.band_box_performer_pick {
 			@include band_box_template;
