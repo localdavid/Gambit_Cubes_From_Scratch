@@ -65,8 +65,9 @@ $(document).ready(function() {
 	$(".performer_pick_button").click(function() {
 		// Changes class of .performer_pick_button
 		$(this).toggleClass('performer_pick_button_clicked');
-		// Selects only divs that are direct descendents of .cube_column and that aren't .performer_pick_button (Performer picks)	
-		$(".cube_column").children("div").not(".performer_pick_button").fadeToggle(200);
+		// Selects only divs that are direct descendents of .cube_column and that aren't .band_box_performer_pick (Performer picks)	
+		$(".cube_column").children("div").not(".band_box_performer_pick").fadeToggle(200);
+
 	});
 
 });
