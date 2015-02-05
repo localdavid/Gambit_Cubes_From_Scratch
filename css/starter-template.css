@@ -9,6 +9,10 @@ html {
   -moz-box-sizing: inherit;
   box-sizing: inherit; }
 
+/*
+$small-media: new-breakpoint(max-width 600px);
+$large-media: new-breakpoint(min-width 601px);
+*/
 body {
   background-color: white; }
 
@@ -28,61 +32,175 @@ section#cubes {
     display: table; }
   section#cubes .cubes_left {
     height: 600px;
-    background: #c6fdff; }
-    @media screen and (max-width: 600px) {
-      section#cubes .cubes_left {
-        float: left;
-        display: block;
-        margin-right: 2.3576515979%;
-        width: 100%; }
-        section#cubes .cubes_left:last-child {
-          margin-right: 0; } }
-    @media screen and (min-width: 601px) {
-      section#cubes .cubes_left {
-        float: left;
-        display: block;
-        margin-right: 2.3576515979%;
-        width: 31.7615656014%; }
-        section#cubes .cubes_left:last-child {
-          margin-right: 0; } }
+    background: #c6fdff;
+    /*
+    	@include media($small-media) {
+    		@include span-columns(12);
+    	}
+    */
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 23.2317613015%; }
+    section#cubes .cubes_left:last-child {
+      margin-right: 0; }
   section#cubes .cubes_two {
     height: 600px;
-    background: #c6fdff; }
-    @media screen and (max-width: 600px) {
-      section#cubes .cubes_two {
-        float: left;
-        display: block;
-        margin-right: 2.3576515979%;
-        width: 100%; }
-        section#cubes .cubes_two:last-child {
-          margin-right: 0; } }
-    @media screen and (min-width: 601px) {
-      section#cubes .cubes_two {
-        float: left;
-        display: block;
-        margin-right: 2.3576515979%;
-        width: 31.7615656014%; }
-        section#cubes .cubes_two:last-child {
-          margin-right: 0; } }
+    background: #c6fdff;
+    /*
+    	@include media($small-media) {
+    		@include span-columns(12);
+    	}
+    */
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 23.2317613015%; }
+    section#cubes .cubes_two:last-child {
+      margin-right: 0; }
   section#cubes .cubes_right {
     height: 600px;
-    background: #c6fdff; }
-    @media screen and (max-width: 600px) {
-      section#cubes .cubes_right {
-        float: left;
-        display: block;
-        margin-right: 2.3576515979%;
-        width: 100%; }
-        section#cubes .cubes_right:last-child {
-          margin-right: 0; } }
-    @media screen and (min-width: 601px) {
-      section#cubes .cubes_right {
-        float: left;
-        display: block;
-        margin-right: 2.3576515979%;
-        width: 31.7615656014%; }
-        section#cubes .cubes_right:last-child {
-          margin-right: 0; } }
+    background: #c6fdff;
+    /*
+    	@include media($small-media) {
+    		@include span-columns(12);
+    	}
+    */
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 23.2317613015%; }
+    section#cubes .cubes_right:last-child {
+      margin-right: 0; }
+  section#cubes .cubes_4 {
+    height: 600px;
+    background: #c6fdff;
+    /*
+    	@include media($small-media) {
+    		@include span-columns(12);
+    	}
+    */
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 23.2317613015%;
+    margin-right: 0; }
+    section#cubes .cubes_4:last-child {
+      margin-right: 0; }
+  section#cubes .cubes_5 {
+    height: 600px;
+    background: #c6fdff;
+    /*
+    	@include media($small-media) {
+    		@include span-columns(12);
+    	}
+    */
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 23.2317613015%; }
+    section#cubes .cubes_5:last-child {
+      margin-right: 0; }
+  section#cubes .cubes_6 {
+    height: 600px;
+    background: #c6fdff;
+    /*
+    	@include media($small-media) {
+    		@include span-columns(12);
+    	}
+    */
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 23.2317613015%; }
+    section#cubes .cubes_6:last-child {
+      margin-right: 0; }
+  section#cubes .cubes_7 {
+    height: 600px;
+    background: #c6fdff;
+    /*
+    	@include media($small-media) {
+    		@include span-columns(12);
+    	}
+    */
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 23.2317613015%; }
+    section#cubes .cubes_7:last-child {
+      margin-right: 0; }
+  section#cubes .cubes_8 {
+    height: 600px;
+    background: #c6fdff;
+    /*
+    	@include media($small-media) {
+    		@include span-columns(12);
+    	}
+    */
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 23.2317613015%;
+    margin-right: 0; }
+    section#cubes .cubes_8:last-child {
+      margin-right: 0; }
+  section#cubes .cubes_9 {
+    height: 600px;
+    background: #c6fdff;
+    /*
+    	@include media($small-media) {
+    		@include span-columns(12);
+    	}
+    */
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 23.2317613015%; }
+    section#cubes .cubes_9:last-child {
+      margin-right: 0; }
+  section#cubes .cubes_10 {
+    height: 600px;
+    background: #c6fdff;
+    /*
+    	@include media($small-media) {
+    		@include span-columns(12);
+    	}
+    */
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 23.2317613015%; }
+    section#cubes .cubes_10:last-child {
+      margin-right: 0; }
+  section#cubes .cubes_11 {
+    height: 600px;
+    background: #c6fdff;
+    /*
+    	@include media($small-media) {
+    		@include span-columns(12);
+    	}
+    */
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 23.2317613015%; }
+    section#cubes .cubes_11:last-child {
+      margin-right: 0; }
+  section#cubes .cubes_12 {
+    height: 600px;
+    background: #c6fdff;
+    /*
+    	@include media($small-media) {
+    		@include span-columns(12);
+    	}
+    */
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 23.2317613015%;
+    margin-right: 0; }
+    section#cubes .cubes_12:last-child {
+      margin-right: 0; }
   section#cubes .band_box {
     height: 100px;
     width: 100%;
