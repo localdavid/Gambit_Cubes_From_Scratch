@@ -22,226 +22,228 @@ body {
   border: 2px solid black;
   text-align: center; }
 
-section#cubes {
+section#cubes section.cubes_row {
   max-width: 68em;
   margin-left: auto;
-  margin-right: auto; }
-  section#cubes::after {
+  margin-right: auto;
+  border: 5px;
+  padding-bottom: 70px; }
+  section#cubes section.cubes_row::after {
     clear: both;
     content: "";
     display: table; }
-  section#cubes .cubes_left {
-    height: 600px;
-    background: #c6fdff;
-    /*
-    	@include media($small-media) {
-    		@include span-columns(12);
-    	}
-    */
-    float: left;
-    display: block;
-    margin-right: 2.3576515979%;
-    width: 23.2317613015%; }
-    section#cubes .cubes_left:last-child {
-      margin-right: 0; }
-  section#cubes .cubes_two {
-    height: 600px;
-    background: #c6fdff;
-    /*
-    	@include media($small-media) {
-    		@include span-columns(12);
-    	}
-    */
-    float: left;
-    display: block;
-    margin-right: 2.3576515979%;
-    width: 23.2317613015%; }
-    section#cubes .cubes_two:last-child {
-      margin-right: 0; }
-  section#cubes .cubes_right {
-    height: 600px;
-    background: #c6fdff;
-    /*
-    	@include media($small-media) {
-    		@include span-columns(12);
-    	}
-    */
-    float: left;
-    display: block;
-    margin-right: 2.3576515979%;
-    width: 23.2317613015%; }
-    section#cubes .cubes_right:last-child {
-      margin-right: 0; }
-  section#cubes .cubes_4 {
-    height: 600px;
-    background: #c6fdff;
-    /*
-    	@include media($small-media) {
-    		@include span-columns(12);
-    	}
-    */
-    float: left;
-    display: block;
-    margin-right: 2.3576515979%;
-    width: 23.2317613015%;
+section .cubes_left {
+  height: 600px;
+  background: #c6fdff;
+  /*
+  	@include media($small-media) {
+  		@include span-columns(12);
+  	}
+  */
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 23.2317613015%; }
+  section .cubes_left:last-child {
     margin-right: 0; }
-    section#cubes .cubes_4:last-child {
-      margin-right: 0; }
-  section#cubes .cubes_5 {
-    height: 600px;
-    background: #c6fdff;
-    /*
-    	@include media($small-media) {
-    		@include span-columns(12);
-    	}
-    */
-    float: left;
-    display: block;
-    margin-right: 2.3576515979%;
-    width: 23.2317613015%; }
-    section#cubes .cubes_5:last-child {
-      margin-right: 0; }
-  section#cubes .cubes_6 {
-    height: 600px;
-    background: #c6fdff;
-    /*
-    	@include media($small-media) {
-    		@include span-columns(12);
-    	}
-    */
-    float: left;
-    display: block;
-    margin-right: 2.3576515979%;
-    width: 23.2317613015%; }
-    section#cubes .cubes_6:last-child {
-      margin-right: 0; }
-  section#cubes .cubes_7 {
-    height: 600px;
-    background: #c6fdff;
-    /*
-    	@include media($small-media) {
-    		@include span-columns(12);
-    	}
-    */
-    float: left;
-    display: block;
-    margin-right: 2.3576515979%;
-    width: 23.2317613015%; }
-    section#cubes .cubes_7:last-child {
-      margin-right: 0; }
-  section#cubes .cubes_8 {
-    height: 600px;
-    background: #c6fdff;
-    /*
-    	@include media($small-media) {
-    		@include span-columns(12);
-    	}
-    */
-    float: left;
-    display: block;
-    margin-right: 2.3576515979%;
-    width: 23.2317613015%;
+section .cubes_two {
+  height: 600px;
+  background: #c6fdff;
+  /*
+  	@include media($small-media) {
+  		@include span-columns(12);
+  	}
+  */
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 23.2317613015%; }
+  section .cubes_two:last-child {
     margin-right: 0; }
-    section#cubes .cubes_8:last-child {
-      margin-right: 0; }
-  section#cubes .cubes_9 {
-    height: 600px;
-    background: #c6fdff;
-    /*
-    	@include media($small-media) {
-    		@include span-columns(12);
-    	}
-    */
-    float: left;
-    display: block;
-    margin-right: 2.3576515979%;
-    width: 23.2317613015%; }
-    section#cubes .cubes_9:last-child {
-      margin-right: 0; }
-  section#cubes .cubes_10 {
-    height: 600px;
-    background: #c6fdff;
-    /*
-    	@include media($small-media) {
-    		@include span-columns(12);
-    	}
-    */
-    float: left;
-    display: block;
-    margin-right: 2.3576515979%;
-    width: 23.2317613015%; }
-    section#cubes .cubes_10:last-child {
-      margin-right: 0; }
-  section#cubes .cubes_11 {
-    height: 600px;
-    background: #c6fdff;
-    /*
-    	@include media($small-media) {
-    		@include span-columns(12);
-    	}
-    */
-    float: left;
-    display: block;
-    margin-right: 2.3576515979%;
-    width: 23.2317613015%; }
-    section#cubes .cubes_11:last-child {
-      margin-right: 0; }
-  section#cubes .cubes_12 {
-    height: 600px;
-    background: #c6fdff;
-    /*
-    	@include media($small-media) {
-    		@include span-columns(12);
-    	}
-    */
-    float: left;
-    display: block;
-    margin-right: 2.3576515979%;
-    width: 23.2317613015%;
+section .cubes_right {
+  height: 600px;
+  background: #c6fdff;
+  /*
+  	@include media($small-media) {
+  		@include span-columns(12);
+  	}
+  */
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 23.2317613015%; }
+  section .cubes_right:last-child {
     margin-right: 0; }
-    section#cubes .cubes_12:last-child {
-      margin-right: 0; }
-  section#cubes .band_box {
-    height: 100px;
-    width: 100%;
-    display: table;
-    vertical-align: middle;
-    text-align: center;
-    background-color: #7BCAE8;
-    background-image: -webkit-linear-gradient(#7BCAE8, #50b9e0);
-    background-image: linear-gradient(#7BCAE8, #50b9e0); }
-  section#cubes .band_box_basin_pick {
-    height: 100px;
-    width: 100%;
-    display: table;
-    vertical-align: middle;
-    text-align: center;
-    background-image: url(/img/CountBasin.svg), -webkit-gradient(linear, left top, left bottom, from(#adffc4), to(#7aff9f));
-    background-repeat: no-repeat, repeat;
-    background-position: 95% 10%, 0 0;
-    background-size: 50px, auto; }
-  section#cubes .band_box_performer_pick {
-    height: 100px;
-    width: 100%;
-    display: table;
-    vertical-align: middle;
-    text-align: center;
-    background-color: #ce5be4;
-    background-image: -webkit-linear-gradient(#ce5be4, #c12fdd);
-    background-image: linear-gradient(#ce5be4, #c12fdd); }
-  section#cubes .text {
-    display: table-cell;
-    vertical-align: middle; }
-  section#cubes h3 {
-    font-size: 1.1em;
-    text-align: center;
-    line-height: .5em;
-    font-family: "Arvo", serif;
-    font-weight: 700; }
-  section#cubes h1 {
-    font-size: 2em;
-    line-height: 1em;
-    font-family: "Oswald", sans-serif; }
+section .cubes_4 {
+  height: 600px;
+  background: #c6fdff;
+  /*
+  	@include media($small-media) {
+  		@include span-columns(12);
+  	}
+  */
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 23.2317613015%;
+  margin-right: 0; }
+  section .cubes_4:last-child {
+    margin-right: 0; }
+section .cubes_5 {
+  height: 600px;
+  background: #c6fdff;
+  /*
+  	@include media($small-media) {
+  		@include span-columns(12);
+  	}
+  */
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 23.2317613015%; }
+  section .cubes_5:last-child {
+    margin-right: 0; }
+section .cubes_6 {
+  height: 600px;
+  background: #c6fdff;
+  /*
+  	@include media($small-media) {
+  		@include span-columns(12);
+  	}
+  */
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 23.2317613015%; }
+  section .cubes_6:last-child {
+    margin-right: 0; }
+section .cubes_7 {
+  height: 600px;
+  background: #c6fdff;
+  /*
+  	@include media($small-media) {
+  		@include span-columns(12);
+  	}
+  */
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 23.2317613015%; }
+  section .cubes_7:last-child {
+    margin-right: 0; }
+section .cubes_8 {
+  height: 600px;
+  background: #c6fdff;
+  /*
+  	@include media($small-media) {
+  		@include span-columns(12);
+  	}
+  */
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 23.2317613015%;
+  margin-right: 0; }
+  section .cubes_8:last-child {
+    margin-right: 0; }
+section .cubes_9 {
+  height: 600px;
+  background: #c6fdff;
+  /*
+  	@include media($small-media) {
+  		@include span-columns(12);
+  	}
+  */
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 23.2317613015%; }
+  section .cubes_9:last-child {
+    margin-right: 0; }
+section .cubes_10 {
+  height: 600px;
+  background: #c6fdff;
+  /*
+  	@include media($small-media) {
+  		@include span-columns(12);
+  	}
+  */
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 23.2317613015%; }
+  section .cubes_10:last-child {
+    margin-right: 0; }
+section .cubes_11 {
+  height: 600px;
+  background: #c6fdff;
+  /*
+  	@include media($small-media) {
+  		@include span-columns(12);
+  	}
+  */
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 23.2317613015%; }
+  section .cubes_11:last-child {
+    margin-right: 0; }
+section .cubes_12 {
+  height: 600px;
+  background: #c6fdff;
+  /*
+  	@include media($small-media) {
+  		@include span-columns(12);
+  	}
+  */
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 23.2317613015%;
+  margin-right: 0; }
+  section .cubes_12:last-child {
+    margin-right: 0; }
+section .band_box {
+  height: 100px;
+  width: 100%;
+  display: table;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #7BCAE8;
+  background-image: -webkit-linear-gradient(#7BCAE8, #50b9e0);
+  background-image: linear-gradient(#7BCAE8, #50b9e0); }
+section .band_box_basin_pick {
+  height: 100px;
+  width: 100%;
+  display: table;
+  vertical-align: middle;
+  text-align: center;
+  background-image: url(/img/CountBasin.svg), -webkit-gradient(linear, left top, left bottom, from(#adffc4), to(#7aff9f));
+  background-repeat: no-repeat, repeat;
+  background-position: 95% 10%, 0 0;
+  background-size: 50px, auto; }
+section .band_box_performer_pick {
+  height: 100px;
+  width: 100%;
+  display: table;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #ce5be4;
+  background-image: -webkit-linear-gradient(#ce5be4, #c12fdd);
+  background-image: linear-gradient(#ce5be4, #c12fdd); }
+section .text {
+  display: table-cell;
+  vertical-align: middle; }
+section h3 {
+  font-size: 1.1em;
+  text-align: center;
+  line-height: .5em;
+  font-family: "Arvo", serif;
+  font-weight: 700; }
+section h1 {
+  font-size: 2em;
+  line-height: 1em;
+  font-family: "Oswald", sans-serif; }
 
 .full_cube {
   display: none; }

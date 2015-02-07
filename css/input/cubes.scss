@@ -31,15 +31,19 @@
 
 
 
-
-
-
 section {
 		
 	&#cubes {
-		@include outer-container;
 		
-				
+			section.cubes_row {
+				@include outer-container;
+				border: 5px;
+				padding-bottom: 70px;
+			}
+		}
+		
+
+						
 		.cubes_left {
 			@include column;
 		}
@@ -126,8 +130,10 @@ section {
 			line-height: 1em;
 			font-family: $primary-font;
 		}
-	}
+
 }
+
+
 
 
 
