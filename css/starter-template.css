@@ -275,13 +275,20 @@ h1.stage_name {
   color: #50b9e0;
   text-align: center; }
 
-section.non_header_elements {
+section.navigation {
   position: relative;
   z-index: 150;
-  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3); }
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+  background-color: white; }
 
-section.non_header_elements_scrolled {
-  position: fixed; }
+section.navigation_scrolled {
+  position: fixed;
+  width: 100%;
+  z-index: 150;
+  margin: 0;
+  padding: 0;
+  margin-top: 180;
+  top: 0; }
 
 .date_select_div {
   height: 100px;
@@ -373,7 +380,7 @@ li {
   background-color: white; }
 
 body {
-  margin: 0; }
+  margin-top: 180; }
 
 section.non_header_elements {
   position: relative;

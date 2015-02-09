@@ -1,19 +1,5 @@
-// Sticky navigation
-
-	// 	Store the nav section as a variable, since we're calling it a lot
-	var nav = $("section.non_header_elements");
-	
-	// 	 On scroll, target browser window and pass function
-	$(window).scroll(function() {
-		// 	this = window; scrollTop gets current vertical position of scroll bar; # is how many pixels are scrolled	
-		if ( $(this).scrollTop() > 180 ) {
-			// 	add scrolled class		
-			mn.addClass("non_header_elements_scrolled");
-		}
-		else {
-			mn.removeClass("non_header_elements_scrolled");
-		}
-	});
+/*jslint browser: true*/
+/*global $, jQuery, alert*/
 
 
 // Hide filters on page load
@@ -91,4 +77,19 @@ $(document).ready(function() {
 });
 
 
+// Sticky navigation
 
+	// 	Store the nav section as a variable, since we're calling it a lot
+	var nav = $("section.navigation");
+	
+	// 	 On scroll, target browser window and pass function
+	$(window).scroll(function() {
+		// 	this = window; scrollTop gets current vertical position of scroll bar; # is how many pixels are scrolled	
+		if ( $(this).scrollTop() > 180 ) {
+			// 	add scrolled class		
+			nav.addClass("navigation_scrolled");
+		}
+		else {
+			nav.removeClass("navigation_scrolled");
+		}
+	});

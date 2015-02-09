@@ -1,11 +1,19 @@
-section.non_header_elements {
+section.navigation {
 	position: relative;
 	z-index: 150;
 	box-shadow: 0 4px 5px rgba(0,0,0, .3);
+	background-color: white;
 }
 
-section.non_header_elements_scrolled{
+section.navigation_scrolled{
 	position: fixed;
+	width: 100%;
+	z-index: 150;
+	margin: 0;
+	padding: 0;
+	margin-top: 180;
+	top: 0;
+
 }
 
 // Drop down menu to select weekend
