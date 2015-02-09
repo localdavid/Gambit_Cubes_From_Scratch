@@ -70,15 +70,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/css\/input\/intro.scss": {
+	"\/css\/input\/header.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/input\/intro.scss",
-		"outputAbbreviatedPath": "\/css\/css\/intro.css",
+		"inputAbbreviatedPath": "\/css\/input\/header.scss",
+		"outputAbbreviatedPath": "\/css\/css\/header.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -876,7 +876,7 @@
 	"markdownEnableFootnotes": 0,
 	"markdownEnableSmartyPants": 1,
 	"markdownExpandTabs": 1,
-	"reloadFileURLs": 0,
+	"reloadFileURLs": 1,
 	"sassAutoOutputPathEnabled": 1,
 	"sassAutoOutputPathFilenamePattern": "*.css",
 	"sassAutoOutputPathRelativePath": "..\/css",

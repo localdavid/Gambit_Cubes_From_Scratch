@@ -3,7 +3,7 @@
 @mixin column {
 	height: 600px;
 //     line-height: $body-line-height;
-    background: #c6fdff;
+    background: $column-color;
     
 /*
 	@include media($small-media) {

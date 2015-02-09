@@ -1,7 +1,19 @@
 @import 'visual_grid';
 @import 'plugins';
 @import 'variables';
+@import 'header';
 @import 'background';
-@import 'intro';
 @import 'cubes';
 @import	'navigation';
+
+body {
+	margin: 0;
+
+}
+
+section.non_header_elements{
+	position: relative;
+	margin-top: 180px;
+	background-color: white;
+	z-index: 1;
+}
