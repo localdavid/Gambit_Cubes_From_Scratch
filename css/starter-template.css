@@ -216,6 +216,14 @@ section .band_box {
   background-color: #7BCAE8;
   background-image: -webkit-linear-gradient(#7BCAE8, #50b9e0);
   background-image: linear-gradient(#7BCAE8, #50b9e0); }
+  section .band_box a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    text-decoration: none; }
 section .band_box_basin_pick {
   height: 100px;
   width: 100%;
@@ -277,14 +285,14 @@ h1.stage_name {
 
 section.navigation {
   position: relative;
-  z-index: 150;
+  z-index: 300;
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
   background-color: white; }
 
 section.navigation_scrolled {
   position: fixed;
   width: 100%;
-  z-index: 150;
+  z-index: 300;
   margin: 0;
   padding: 0;
   margin-top: 180;

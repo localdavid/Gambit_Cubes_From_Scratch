@@ -95,6 +95,15 @@ section {
 		.band_box {
 			@include band_box_template;
 			@include linear-gradient($primary-color, $primary-color-darken );
+			& a {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				z-index: 200; 
+				text-decoration: none;
+			}
 		}
 		
 		
