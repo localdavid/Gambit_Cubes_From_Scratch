@@ -1,5 +1,4 @@
 /*jslint browser: true*/
-/*global $, jQuery, alert*/
 
 
 // Hide filters on page load
@@ -10,9 +9,21 @@ $(document).ready(function() {
 
 
 
-// Weekend select drop down menu
+// Weekend select drop down menu (from: http://www.webchief.co.uk/blog/simple-jquery-dropdown-menu/)
+
+
 
 $(document).ready(function() {
+	
+	// Define the open and close submenu functions
+			function openSubMenu() {
+			$(this).find('ul').css('visibility', 'visible');	
+		};
+		
+		function closeSubMenu() {
+			$(this).find('ul').css('visibility', 'hidden');	
+		};
+	
 	// when the mouse is moved over a li in myMenu, the function openSubMenu is called
 		$('.myMenu > li').on('mouseover', openSubMenu);
 	//  We need to bind another event listener to detect when the mouse rolls out and call a function that gets rid of the dropdown.
@@ -49,13 +60,24 @@ $(document).ready(function() {
 
 $(document).ready(function() {
 	
-	//Filter to show only Count Basin's picks
-	$(".count_basin_button").click(function() {
-		// Changes class of .count_basin_button
-		$(this).toggleClass('count_basin_button_clicked');
-		// Selects only divs that are direct descendents of .cube_column and that aren't .band_box_basin_pick (Count Basins picks)	
-		$(".cube_column").children("div").not(".band_box_basin_pick").fadeToggle(200);
-	});
+	// Put new filters here
+	
+		// Starting w/ No filters active
+			// Filter for Basin picks
+			
+					// Press Basin filter
+					$(".count_basin_button").click(function() {
+						
+						// Basin button now in active state by changing class of .count_basin_button
+						$(this).toggleClass('count_basin_button_clicked');
+						
+						// Hide divs that aren't Basin Picks
+							// via: Selects only divs that are direct descendents of .cube_column and that aren't .band_box_basin_pick (Count Basins picks)
+							$(".cube_column").children("div").not(".band_box_basin_pick").fadeToggle(200);
+					});
+	
+	
+	// Earlier filters
 	
 /*
 	//Filter to show only cover story subjects	
