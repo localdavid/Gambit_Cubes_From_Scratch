@@ -23,125 +23,125 @@
 </String>
             <ConnectedNoteIDs>14</ConnectedNoteIDs>
         </Note>
-        <Note ID="14" FontSize="12.0" Position="112.636719,288.0" Width="55.0">
+        <Note ID="14" FontSize="12.0" Position="113.0,288.0" Width="55.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>currently</String>
             <ConnectedNoteIDs>13, 15</ConnectedNoteIDs>
         </Note>
-        <Note ID="15" FontSize="12.0" Position="154.542969,369.496094" Width="63.0">
+        <Note ID="15" FontSize="12.0" Position="155.0,369.0" Width="63.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>what I see</String>
             <ConnectedNoteIDs>14</ConnectedNoteIDs>
         </Note>
-        <Note ID="18" FontSize="12.0" Position="70.160156,422.828125" Width="71.0">
+        <Note ID="18" FontSize="12.0" Position="70.0,423.0" Width="71.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>no filters on</String>
             <ConnectedNoteIDs>19</ConnectedNoteIDs>
         </Note>
-        <Note ID="19" FontSize="12.0" Position="218.160156,433.828125" Width="79.0">
+        <Note ID="19" FontSize="12.0" Position="218.0,434.0" Width="79.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>see all cubes</String>
             <ConnectedNoteIDs>18</ConnectedNoteIDs>
         </Note>
-        <Note ID="20" FontSize="12.0" Position="73.113281,453.480469" Width="71.0">
+        <Note ID="20" FontSize="12.0" Position="73.0,453.0" Width="71.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>one filter on</String>
             <ConnectedNoteIDs>21</ConnectedNoteIDs>
         </Note>
-        <Note ID="21" FontSize="12.0" Position="190.21875,479.34375" Width="174.0">
+        <Note ID="21" FontSize="12.0" Position="190.0,479.0" Width="174.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>see only cubes that match filter</String>
             <ConnectedNoteIDs>20</ConnectedNoteIDs>
         </Note>
-        <Note ID="22" FontSize="12.0" Position="53.554688,503.828125" Width="76.0">
+        <Note ID="22" FontSize="12.0" Position="54.0,504.0" Width="76.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>two filters on</String>
             <ConnectedNoteIDs>23</ConnectedNoteIDs>
         </Note>
-        <Note ID="23" FontSize="12.0" Position="224.285156,527.273438" Width="200.0">
+        <Note ID="23" FontSize="12.0" Position="224.0,527.0" Width="200.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>see cubes that don’t match either filter</String>
             <ConnectedNoteIDs>22</ConnectedNoteIDs>
         </Note>
-        <Note ID="24" FontSize="12.0" Position="434.121094,366.96875" Width="105.0">
+        <Note ID="24" FontSize="12.0" Position="434.0,367.0" Width="105.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>what I want to see</String>
             <ConnectedNoteIDs>25</ConnectedNoteIDs>
         </Note>
-        <Note ID="25" FontSize="12.0" Position="415.605469,414.0" Width="174.0">
+        <Note ID="25" FontSize="12.0" Position="416.0,414.0" Width="174.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>only activate one filter at a time</String>
             <ConnectedNoteIDs>24, 26</ConnectedNoteIDs>
         </Note>
-        <Note ID="26" FontSize="12.0" Position="461.515625,462.0" Width="99.0">
+        <Note ID="26" FontSize="12.0" Position="462.0,462.0" Width="99.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>no filter activated</String>
             <ConnectedNoteIDs>25, 27</ConnectedNoteIDs>
         </Note>
-        <Note ID="27" FontSize="12.0" Position="607.304688,467.0" Width="87.0">
+        <Note ID="27" FontSize="12.0" Position="607.0,467.0" Width="87.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>show all cubes</String>
             <ConnectedNoteIDs>26</ConnectedNoteIDs>
         </Note>
-        <Note ID="28" FontSize="12.0" Position="89.484375,613.015625" Width="87.0">
+        <Note ID="28" FontSize="12.0" Position="89.0,613.0" Width="87.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>how this works</String>
         </Note>
-        <Note ID="29" FontSize="12.0" Position="102.46875,664.210938" Width="78.0">
+        <Note ID="29" FontSize="12.0" Position="102.0,664.0" Width="78.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>Filter buttons</String>
             <ConnectedNoteIDs>30</ConnectedNoteIDs>
         </Note>
-        <Note ID="30" FontSize="12.0" Position="97.105469,705.0" Width="200.0">
+        <Note ID="30" FontSize="12.0" Position="97.0,705.0" Width="200.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>class=“performer_pick_button" or "count_basin_button"</String>
             <ConnectedNoteIDs>29</ConnectedNoteIDs>
         </Note>
-        <Note ID="31" FontSize="12.0" Position="343.910156,622.089844" Width="61.0">
+        <Note ID="31" FontSize="12.0" Position="344.0,622.0" Width="61.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>Band divs</String>
             <ConnectedNoteIDs>32</ConnectedNoteIDs>
         </Note>
-        <Note ID="32" FontSize="12.0" Position="346.621094,671.847656" Width="67.0">
+        <Note ID="32" FontSize="12.0" Position="347.0,672.0" Width="67.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>Not filtered</String>
             <ConnectedNoteIDs>31, 33</ConnectedNoteIDs>
         </Note>
-        <Note ID="33" FontSize="12.0" Position="446.800781,670.378906" Width="122.0">
+        <Note ID="33" FontSize="12.0" Position="447.0,670.0" Width="122.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -162,47 +162,47 @@
             <String>div class=“band_box_basin_pick”</String>
             <ConnectedNoteIDs>34</ConnectedNoteIDs>
         </Note>
-        <Note ID="36" FontSize="12.0" Position="358.363281,732.773438" Width="93.0">
+        <Note ID="36" FontSize="12.0" Position="358.0,733.0" Width="93.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>Performer picks</String>
         </Note>
-        <Note ID="37" FontSize="12.0" Position="463.285156,732.183594" Width="186.0">
+        <Note ID="37" FontSize="12.0" Position="463.0,732.0" Width="186.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>div class=“band_box_basin_pick”</String>
         </Note>
-        <Note ID="38" FontSize="12.0" Position="735.367188,588.0" Width="83.0">
+        <Note ID="38" FontSize="12.0" Position="735.0,588.0" Width="83.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>How jQ works</String>
             <ConnectedNoteIDs>39</ConnectedNoteIDs>
         </Note>
-        <Note ID="39" FontSize="12.0" Position="775.613281,620.21875" Width="200.0">
+        <Note ID="39" FontSize="12.0" Position="776.0,620.0" Width="200.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>divs that aren’t the selected class are faded out</String>
             <ConnectedNoteIDs>38</ConnectedNoteIDs>
         </Note>
-        <Note ID="40" FontSize="12.0" Position="407.855469,893.320312" Width="96.0">
+        <Note ID="40" FontSize="12.0" Position="408.0,893.0" Width="96.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>press basin filter</String>
             <ConnectedNoteIDs>41-42, 45</ConnectedNoteIDs>
         </Note>
-        <Note ID="41" FontSize="12.0" Position="544.394531,866.4375" Width="152.0">
+        <Note ID="41" FontSize="12.0" Position="544.0,866.0" Width="152.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>basin button turns to active</String>
             <ConnectedNoteIDs>40</ConnectedNoteIDs>
         </Note>
-        <Note ID="42" FontSize="12.0" Position="542.792969,914.242188" Width="175.0">
+        <Note ID="42" FontSize="12.0" Position="543.0,914.0" Width="175.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -215,7 +215,7 @@
             </Appearance>
             <String>Workflow</String>
         </Note>
-        <Note ID="44" FontSize="12.0" Position="70.832031,927.847656" Width="85.0">
+        <Note ID="44" FontSize="12.0" Position="71.0,928.0" Width="85.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -226,6 +226,7 @@
         <Note ID="45" FontSize="12.0" Position="223.0,898.0" Width="133.0">
             <Appearance>
                 <Alignment>Left</Alignment>
+                <Fill>0.539237 0.828645 0.323654</Fill>
             </Appearance>
             <String>To Filter for Basin picks</String>
             <ConnectedNoteIDs>40, 44</ConnectedNoteIDs>
@@ -234,12 +235,13 @@
         <Note ID="46" FontSize="12.0" Position="223.0,949.0" Width="156.0">
             <Appearance>
                 <Alignment>Left</Alignment>
+                <Fill>0.539237 0.828645 0.323654</Fill>
             </Appearance>
             <String>To Filter for Performer picks</String>
             <ConnectedNoteIDs>44, 47</ConnectedNoteIDs>
             <PointsToNoteIDs>47</PointsToNoteIDs>
         </Note>
-        <Note ID="47" FontSize="12.0" Position="416.679688,957.226562" Width="119.0">
+        <Note ID="47" FontSize="12.0" Position="417.0,957.0" Width="119.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -260,7 +262,7 @@
             <String>hide divs that aren’t perf. picks</String>
             <ConnectedNoteIDs>47</ConnectedNoteIDs>
         </Note>
-        <Note ID="50" FontSize="12.0" Position="64.53125,1138.847656" Width="99.0">
+        <Note ID="50" FontSize="12.0" Position="65.0,1139.0" Width="99.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
@@ -268,80 +270,262 @@
             <ConnectedNoteIDs>52, 59</ConnectedNoteIDs>
             <PointsToNoteIDs>52, 59</PointsToNoteIDs>
         </Note>
-        <Note ID="52" FontSize="12.0" Position="219.574219,1101.535156" Width="156.0">
+        <Note ID="52" FontSize="12.0" Position="220.0,1102.0" Width="156.0">
             <Appearance>
                 <Alignment>Left</Alignment>
+                <Fill>0.077727 0.559807 0.805582</Fill>
             </Appearance>
             <String>To Filter for Performer picks</String>
-            <ConnectedNoteIDs>50, 53-54</ConnectedNoteIDs>
-            <PointsToNoteIDs>53-54</PointsToNoteIDs>
+            <ConnectedNoteIDs>50, 62</ConnectedNoteIDs>
+            <PointsToNoteIDs>62</PointsToNoteIDs>
         </Note>
-        <Note ID="53" FontSize="12.0" Position="443.0,1139.289062" Width="143.0">
+        <Note ID="53" FontSize="12.0" Position="615.910156,1120.96875" Width="143.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>turn on performer filtering</String>
-            <ConnectedNoteIDs>52, 57-58</ConnectedNoteIDs>
+            <ConnectedNoteIDs>57-58, 62</ConnectedNoteIDs>
         </Note>
-        <Note ID="54" FontSize="12.0" Position="444.136719,1091.0" Width="120.0">
+        <Note ID="54" FontSize="12.0" Position="616.910156,1072.96875" Width="120.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>turn off basin filtering</String>
-            <ConnectedNoteIDs>52, 55-56</ConnectedNoteIDs>
+            <ConnectedNoteIDs>55-56, 62</ConnectedNoteIDs>
         </Note>
-        <Note ID="55" FontSize="12.0" Position="597.484375,1061.941406" Width="183.0">
+        <Note ID="55" FontSize="12.0" Position="769.910156,1043.96875" Width="183.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>active basin button turns inactive</String>
             <ConnectedNoteIDs>54</ConnectedNoteIDs>
         </Note>
-        <Note ID="56" FontSize="12.0" Position="595.042969,1099.046875" Width="189.0">
+        <Note ID="56" FontSize="12.0" Position="767.910156,1080.96875" Width="189.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>unhide divs that aren’t basin picks</String>
             <ConnectedNoteIDs>54</ConnectedNoteIDs>
         </Note>
-        <Note ID="57" FontSize="12.0" Position="620.257812,1136.1875" Width="175.0">
+        <Note ID="57" FontSize="12.0" Position="792.910156,1117.96875" Width="175.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>performer button turns to active</String>
             <ConnectedNoteIDs>53</ConnectedNoteIDs>
         </Note>
-        <Note ID="58" FontSize="12.0" Position="616.257812,1178.1875" Width="171.0">
+        <Note ID="58" FontSize="12.0" Position="803.199219,1157.53125" Width="171.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>hide divs that aren’t perf. picks</String>
             <ConnectedNoteIDs>53</ConnectedNoteIDs>
         </Note>
-        <Note ID="59" FontSize="12.0" Position="237.125,1191.210938" Width="120.0">
+        <Note ID="59" FontSize="12.0" Position="237.0,1191.0" Width="120.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>To turn off basin filter</String>
             <ConnectedNoteIDs>50, 60-61</ConnectedNoteIDs>
         </Note>
-        <Note ID="60" FontSize="12.0" Position="396.789062,1187.5625" Width="183.0">
+        <Note ID="60" FontSize="12.0" Position="397.0,1188.0" Width="183.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>active basin button turns inactive</String>
             <ConnectedNoteIDs>59</ConnectedNoteIDs>
         </Note>
-        <Note ID="61" FontSize="12.0" Position="394.347656,1224.667969" Width="189.0">
+        <Note ID="61" FontSize="12.0" Position="394.0,1225.0" Width="189.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>unhide divs that aren’t basin picks</String>
             <ConnectedNoteIDs>59</ConnectedNoteIDs>
         </Note>
+        <Note ID="62" FontSize="12.0" Position="427.988281,1100.0" Width="119.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>press performer filter</String>
+            <ConnectedNoteIDs>52-54</ConnectedNoteIDs>
+            <PointsToNoteIDs>53-54</PointsToNoteIDs>
+        </Note>
+        <Note ID="83" FontSize="12.0" Position="100.96875,1390.046875" Width="154.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>What’s happening currently</String>
+            <ConnectedNoteIDs>84, 87</ConnectedNoteIDs>
+        </Note>
+        <Note ID="84" FontSize="12.0" Position="359.0,1357.0" Width="133.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Start w/ no active filters</String>
+            <ConnectedNoteIDs>83, 85</ConnectedNoteIDs>
+            <PointsToNoteIDs>85</PointsToNoteIDs>
+        </Note>
+        <Note ID="85" FontSize="12.0" Position="602.0,1363.0" Width="65.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Press filter</String>
+            <ConnectedNoteIDs>84, 86</ConnectedNoteIDs>
+            <PointsToNoteIDs>86</PointsToNoteIDs>
+        </Note>
+        <Note ID="86" FontSize="12.0" Position="737.953125,1353.195312" Width="46.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Works!</String>
+            <ConnectedNoteIDs>85</ConnectedNoteIDs>
+        </Note>
+        <Note ID="87" FontSize="12.0" Position="355.714844,1432.300781" Width="120.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Start w/ 1 active filter</String>
+            <ConnectedNoteIDs>83, 88</ConnectedNoteIDs>
+            <PointsToNoteIDs>88</PointsToNoteIDs>
+        </Note>
+        <Note ID="88" FontSize="12.0" Position="574.0,1439.109375" Width="124.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Press non-active filter</String>
+            <ConnectedNoteIDs>87, 89</ConnectedNoteIDs>
+            <PointsToNoteIDs>89</PointsToNoteIDs>
+        </Note>
+        <Note ID="89" FontSize="12.0" Position="785.304688,1415.804688" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>only the stuff that shouldn’t be shown is shown. The stuff that should be shown b/c of either filter isn’t.</String>
+            <ConnectedNoteIDs>88</ConnectedNoteIDs>
+        </Note>
+        <Note ID="101" FontSize="12.0" Position="130.0,1587.0" Width="57.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Template</String>
+        </Note>
+        <Note ID="102" FontSize="12.0" Position="127.0,1652.40625" Width="92.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>To active a filter</String>
+            <ConnectedNoteIDs>103</ConnectedNoteIDs>
+            <PointsToNoteIDs>103</PointsToNoteIDs>
+        </Note>
+        <Note ID="103" FontSize="12.0" Position="287.730469,1647.0" Width="118.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>press button for filter</String>
+            <ConnectedNoteIDs>102, 104, 107</ConnectedNoteIDs>
+        </Note>
+        <Note ID="104" FontSize="12.0" Position="466.0,1593.0" Width="51.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>buttons:</String>
+            <ConnectedNoteIDs>103, 105-106</ConnectedNoteIDs>
+        </Note>
+        <Note ID="105" FontSize="12.0" Position="594.277344,1574.542969" Width="149.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>set other button to inactive</String>
+            <ConnectedNoteIDs>104</ConnectedNoteIDs>
+        </Note>
+        <Note ID="106" FontSize="12.0" Position="593.5,1536.5" Width="133.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>set that button to active</String>
+            <ConnectedNoteIDs>104</ConnectedNoteIDs>
+        </Note>
+        <Note ID="107" FontSize="12.0" Position="468.800781,1676.4375" Width="41.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>filters:</String>
+            <ConnectedNoteIDs>103, 108-109</ConnectedNoteIDs>
+        </Note>
+        <Note ID="108" FontSize="12.0" Position="558.867188,1650.863281" Width="77.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>show all divs</String>
+            <ConnectedNoteIDs>107</ConnectedNoteIDs>
+        </Note>
+        <Note ID="109" FontSize="12.0" Position="559.878906,1701.058594" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>then hide all dives that it’s not filtering for</String>
+            <ConnectedNoteIDs>107</ConnectedNoteIDs>
+        </Note>
+        <Note ID="110" FontSize="12.0" Position="122.773438,1967.53125" Width="147.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>So, to filter for Basin picks</String>
+            <ConnectedNoteIDs>112</ConnectedNoteIDs>
+            <PointsToNoteIDs>112</PointsToNoteIDs>
+        </Note>
+        <Note ID="112" FontSize="12.0" Position="338.0,1967.0" Width="141.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Press Basin Picks button</String>
+            <ConnectedNoteIDs>110, 113, 116</ConnectedNoteIDs>
+        </Note>
+        <Note ID="113" FontSize="12.0" Position="516.179688,1913.441406" Width="51.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>buttons:</String>
+            <ConnectedNoteIDs>112, 114-115</ConnectedNoteIDs>
+        </Note>
+        <Note ID="114" FontSize="12.0" Position="644.457031,1894.984375" Width="149.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>set other button to inactive</String>
+            <ConnectedNoteIDs>113</ConnectedNoteIDs>
+        </Note>
+        <Note ID="115" FontSize="12.0" Position="644.0,1857.0" Width="197.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>set that Basin picks button to active</String>
+            <ConnectedNoteIDs>113</ConnectedNoteIDs>
+        </Note>
+        <Note ID="116" FontSize="12.0" Position="518.980469,1996.878906" Width="41.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>filters:</String>
+            <ConnectedNoteIDs>112, 117-118</ConnectedNoteIDs>
+        </Note>
+        <Note ID="117" FontSize="12.0" Position="609.046875,1971.304688" Width="77.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>show all divs</String>
+            <ConnectedNoteIDs>116</ConnectedNoteIDs>
+        </Note>
+        <Note ID="118" FontSize="12.0" Position="610.058594,2021.5" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>then hide all dives that it’s not filtering for</String>
+            <ConnectedNoteIDs>116</ConnectedNoteIDs>
+        </Note>
     </Notes>
     <BackgroundShapes></BackgroundShapes>
-    <AutoFit>0-1, 13-15, 18-22, 24-29, 31-38, 40-50, 52-61</AutoFit>
+    <AutoFit>0-1, 13-15, 18-22, 24-29, 31-38, 40-50, 52-62, 83-88, 101-108, 110, 112-117</AutoFit>
     <NoteStyles>
         <Style Name="Blue Bubble" ID="C90A5BDD-0233-4A51-90F2-BF51E80D62AA" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
             <BorderThickness>1</BorderThickness>
@@ -400,5 +584,5 @@
         <DefaultFont>Helvetica</DefaultFont>
         <DefaultTextColor>0.0 0.0 0.0</DefaultTextColor>
     </UISettings>
-    <PrintSettings PaperSize="612.000014,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+    <PrintSettings PaperSize="611.999985,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
 </ScappleDocument>

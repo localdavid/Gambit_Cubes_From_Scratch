@@ -16,13 +16,15 @@ $(document).ready(function() {
 $(document).ready(function() {
 	
 	// Define the open and close submenu functions
+/*
 			function openSubMenu() {
 			$(this).find('ul').css('visibility', 'visible');	
-		};
+		}
 		
 		function closeSubMenu() {
 			$(this).find('ul').css('visibility', 'hidden');	
-		};
+		}
+*/
 	
 	// when the mouse is moved over a li in myMenu, the function openSubMenu is called
 		$('.myMenu > li').on('mouseover', openSubMenu);
@@ -37,22 +39,22 @@ $(document).ready(function() {
 		function closeSubMenu() {
 			$(this).find('ul').css('visibility', 'hidden');	
 		}
-});
-
-
-
-// Make so when you click on a list item, it toggles a div
-
-$(document).ready(function() {
-	$('.date_select_div ul li ul li').click(function() {
-	    var i = $(this).index();
-	    $('.full_cube').hide();
-	    $('#day' + (i+1)).show();
-	    
-	    // Shows filters when a day is clicked
-	    $('.filters').show();
 	});
-});
+
+
+
+	// Make so when you click on a list item, it toggles a div
+	
+	$(document).ready(function() {
+		$('.date_select_div ul li ul li').click(function() {
+		    var i = $(this).index();
+		    $('.full_cube').hide();
+		    $('#day' + (i+1)).show();
+		    
+		    // Shows filters when a day is clicked
+		    $('.filters').show();
+		});
+	});
 
 
 
@@ -63,38 +65,41 @@ $(document).ready(function() {
 	// Put new filters here
 	
 		// Starting w/ No filters active
-			// Filter for Basin picks
+		
+			// Filter for Basin picks -- this works
 			
-					// Press Basin filter
-					$(".count_basin_button").click(function() {
-						
-						// Basin button now in active state by changing class of .count_basin_button
-						$(this).toggleClass('count_basin_button_clicked');
-						
-						// Hide divs that aren't Basin Picks
-							// via: Selects only divs that are direct descendents of .cube_column and that aren't .band_box_basin_pick (Count Basins picks)
-							$(".cube_column").children("div").not(".band_box_basin_pick").fadeToggle(200);
-					});
+				// Press Basin filter
+				$(".count_basin_button").click(function() {
+					
+					// Basin button now in active state by changing class of .count_basin_button
+					$(this).toggleClass('count_basin_button_clicked');
+					
+					// Hide divs that aren't Basin Picks
+						// via: Selects only divs that are direct descendents of .cube_column and that aren't .band_box_basin_pick (Count Basins picks)
+						$(".cube_column").children("div").not(".band_box_basin_pick").fadeToggle(200);
+				});
 	
 	
-	// Earlier filters
-	
-/*
-	//Filter to show only cover story subjects	
-	$(".cover_button").click(function() {
-		// Goes through all divs with class=band. Those that don't have class=headliner are toggled on and off
-		$("div .band").not(".cover").toggle();
-	});
-*/
-	
-	//Filter to show only Performer picks
-	$(".performer_pick_button").click(function() {
-		// Changes class of .performer_pick_button
-		$(this).toggleClass('performer_pick_button_clicked');
-		// Selects only divs that are direct descendents of .cube_column and that aren't .band_box_performer_pick (Performer picks)	
-		$(".cube_column").children("div").not(".band_box_performer_pick").fadeToggle(200);
+			// Filter for Performers picks -- in progress
+			
+				// Press Performer filter
+				$(".performer_pick_button").click(function() {
+					
 
-	});
+					// Basin button now in active state by changing class of .count_basin_button
+					$(this).toggleClass('performer_pick_button_clicked');
+
+					
+
+					// Hide divs that aren't Performer Picks
+						// via: Selects only divs that are direct descendents of .cube_column and that aren't .band_box_basin_pick (Count Basins picks)
+						$(".cube_column").children("div").not(".band_box_performer_pick").fadeToggle(200);					
+				});
+				
+				
+			
+	
+	
 
 });
 
