@@ -466,19 +466,19 @@
             <String>then hide all dives that it’s not filtering for</String>
             <ConnectedNoteIDs>107</ConnectedNoteIDs>
         </Note>
-        <Note ID="110" FontSize="12.0" Position="122.773438,1967.53125" Width="147.0">
+        <Note ID="110" FontSize="12.0" Position="111.5,2084.699219" Width="147.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>So, to filter for Basin picks</String>
-            <ConnectedNoteIDs>112</ConnectedNoteIDs>
-            <PointsToNoteIDs>112</PointsToNoteIDs>
+            <ConnectedNoteIDs>112, 119</ConnectedNoteIDs>
+            <PointsToNoteIDs>112, 119</PointsToNoteIDs>
         </Note>
-        <Note ID="112" FontSize="12.0" Position="338.0,1967.0" Width="141.0">
+        <Note ID="112" FontSize="12.0" Position="338.0,1967.0" Width="200.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
-            <String>Press Basin Picks button</String>
+            <String>Press INACTIVE Basin Picks button</String>
             <ConnectedNoteIDs>110, 113, 116</ConnectedNoteIDs>
         </Note>
         <Note ID="113" FontSize="12.0" Position="516.179688,1913.441406" Width="51.0">
@@ -523,9 +523,44 @@
             <String>then hide all dives that it’s not filtering for</String>
             <ConnectedNoteIDs>116</ConnectedNoteIDs>
         </Note>
+        <Note ID="119" FontSize="12.0" Position="330.941406,2220.089844" Width="187.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Press ACTIVE Basin Picks button</String>
+            <ConnectedNoteIDs>110, 121, 124</ConnectedNoteIDs>
+        </Note>
+        <Note ID="121" FontSize="12.0" Position="541.710938,2181.40625" Width="51.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>buttons:</String>
+            <ConnectedNoteIDs>119, 123</ConnectedNoteIDs>
+        </Note>
+        <Note ID="123" FontSize="12.0" Position="684.289062,2153.53125" Width="200.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>set that Basin picks button to inactive</String>
+            <ConnectedNoteIDs>121</ConnectedNoteIDs>
+        </Note>
+        <Note ID="124" FontSize="12.0" Position="544.511719,2264.84375" Width="41.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>filters:</String>
+            <ConnectedNoteIDs>119, 125</ConnectedNoteIDs>
+        </Note>
+        <Note ID="125" FontSize="12.0" Position="678.710938,2280.425781" Width="77.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>show all divs</String>
+            <ConnectedNoteIDs>124</ConnectedNoteIDs>
+        </Note>
     </Notes>
     <BackgroundShapes></BackgroundShapes>
-    <AutoFit>0-1, 13-15, 18-22, 24-29, 31-38, 40-50, 52-62, 83-88, 101-108, 110, 112-117</AutoFit>
+    <AutoFit>0-1, 13-15, 18-22, 24-29, 31-38, 40-50, 52-62, 83-88, 101-108, 110, 112-117, 119, 121, 124-125</AutoFit>
     <NoteStyles>
         <Style Name="Blue Bubble" ID="C90A5BDD-0233-4A51-90F2-BF51E80D62AA" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
             <BorderThickness>1</BorderThickness>

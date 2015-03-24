@@ -360,7 +360,7 @@ li {
     content: "";
     display: table; }
 
-.band_btn, .count_basin_button, .count_basin_button_clicked, .performer_pick_button, .performer_pick_button_clicked {
+.band_btn, .count_basin_button, .performer_pick_button, .performer_pick_button_clicked {
   font-size: 1.1em;
   color: white;
   background-color: #50b9e0;
@@ -371,7 +371,7 @@ li {
   padding: 10px 15px 10px 15px;
   margin: 8px; }
 
-.count_basin_button, .count_basin_button_clicked {
+.count_basin_button {
   background-color: #7aff9f;
   border-color: #7aff9f; }
 
