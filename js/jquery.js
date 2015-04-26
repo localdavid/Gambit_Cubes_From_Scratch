@@ -123,7 +123,7 @@ $(document).ready(function() {
 				
 				// Hide divs that aren't Performer Picks
 				// via: Selects only divs that are direct descendents of .cube_column and that aren't .band_box_basin_pick (Count Basins picks)
-				$(".cube_column").children("div").not(".band_box_performer_pick").hide();
+// 				$(".cube_column").children("div").not(".band_box_performer_pick").hide();
 			});
 				 
 });
