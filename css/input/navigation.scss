@@ -111,16 +111,16 @@ section.navigation_scrolled{
 
 .count_basin_button {
 	@extend .band_btn;
-	background-color: $green-color-darken;
+// 	background-color: $green-color-darken;
+	background-color: black;
+	
 	border-color: $green-color-darken;
+	.active {
+// 		color: $green-color-darken;
+		background-color: white;
+	}
 }
 	
-
-.count_basin_button_clicked {
-// 	@extend .count_basin_button;
-	color: $green-color-darken;
-	background-color: white;
-}
 
 
 // Performer's Pick Button

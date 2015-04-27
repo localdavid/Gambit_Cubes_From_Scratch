@@ -372,12 +372,10 @@ li {
   margin: 8px; }
 
 .count_basin_button {
-  background-color: #7aff9f;
+  background-color: black;
   border-color: #7aff9f; }
-
-.count_basin_button_clicked {
-  color: #7aff9f;
-  background-color: white; }
+  .count_basin_button .active {
+    background-color: white; }
 
 .performer_pick_button, .performer_pick_button_clicked {
   background-color: #c12fdd;

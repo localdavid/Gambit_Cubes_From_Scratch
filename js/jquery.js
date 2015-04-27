@@ -60,13 +60,35 @@ $(document).ready(function() {
 
 // Filter buttons
 
-$(document).ready(function() {
+// Count Basin filtering
 	
 	
-	// New filtering code
+	// Activate and de-activate Count Basin button
+	$(document).ready(function() {
+		$(".count_basin_button").click(function() {
+			if ( $(this).hasClass("active") === true) {
+				$(this).removeClass("active");
+				$(this).css({backgroundColor: "red" })
+				console.log("Count Basin button de-activated");
+			} else {
+				$(this).addClass("active");
+				console.log("Count Basin button activated");
+			}
+	});
 	
-		// Filter for Basin's Picks
+	// Show and hide non-Basin divs
+	
+
+			
+
+
+
+
+
+// old code
+
 		
+/*
 			// For Inactive Basin button (one that isn't already clicked)
 				// Press Basin button
 				$(".count_basin_button").click(function() {
@@ -89,42 +111,7 @@ $(document).ready(function() {
 						$(".cube_column").children("div").not(".band_box_basin_pick").fadeToggle(200);
 				});
 				
-			// For Active Basin button
-				// Press Basin button
-				$(".count_basin_button_clicked").click(function() {
-					
-					// De-activate Basin button
-					// Basin button now in active state by changing class of .count_basin_button
-					$(this).toggleClass('count_basin_button');
-					
-					
-					//Show all divs 
-					$(".cube_column").children("div").show();				
-				});
-			
-		// Filter for Performer's Picks
-		
-			// For Inactive Basin Button
-			// Press Performer Pick button
-			$(".performer_pick_button").click(function() {
-				
-				// Activate Performer Pick button
-				// Basin button now in active state by changing class of .count_basin_button
-				$(this).toggleClass('performer_pick_button_clicked');
-				console.log("Performer pick button clicked");
-				
-				// Set other button to inactive
-				$(".count_basin_button_clicked").toggleClass('count_basin_button');
-				console.log("Other buttons set to inactive")
-				
-				//Show all divs before hiding the right ones
-				$(".cube_column").children("div").show();
-				console.log("Show all divs before hiding the right ones");									
-				
-				// Hide divs that aren't Performer Picks
-				// via: Selects only divs that are direct descendents of .cube_column and that aren't .band_box_basin_pick (Count Basins picks)
-// 				$(".cube_column").children("div").not(".band_box_performer_pick").hide();
-			});
+*/
 				 
 });
 
