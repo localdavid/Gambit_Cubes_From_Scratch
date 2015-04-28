@@ -360,7 +360,7 @@ li {
     content: "";
     display: table; }
 
-.band_btn, .count_basin_button, .performer_pick_button, .performer_pick_button_clicked {
+.band_btn, .count_basin_button, .count_basin_button_active, .performer_pick_button, .performer_pick_button_clicked {
   font-size: 1.1em;
   color: white;
   background-color: #50b9e0;
@@ -371,11 +371,13 @@ li {
   padding: 10px 15px 10px 15px;
   margin: 8px; }
 
-.count_basin_button {
-  background-color: black;
+.count_basin_button, .count_basin_button_active {
+  background-color: #7aff9f;
   border-color: #7aff9f; }
-  .count_basin_button .active {
-    background-color: white; }
+
+.count_basin_button_active {
+  background-color: white;
+  color: black; }
 
 .performer_pick_button, .performer_pick_button_clicked {
   background-color: #c12fdd;

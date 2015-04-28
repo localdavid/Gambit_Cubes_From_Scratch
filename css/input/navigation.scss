@@ -111,14 +111,14 @@ section.navigation_scrolled{
 
 .count_basin_button {
 	@extend .band_btn;
-// 	background-color: $green-color-darken;
-	background-color: black;
-	
+	background-color: $green-color-darken;
 	border-color: $green-color-darken;
-	.active {
-// 		color: $green-color-darken;
-		background-color: white;
-	}
+}
+
+.count_basin_button_active {
+	@extend .count_basin_button;
+	background-color: white;
+	color: black;
 }
 	
 

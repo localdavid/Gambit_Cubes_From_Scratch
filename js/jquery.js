@@ -66,15 +66,18 @@ $(document).ready(function() {
 	// Activate and de-activate Count Basin button
 	$(document).ready(function() {
 		$(".count_basin_button").click(function() {
-			if ( $(this).hasClass("active") === true) {
-				$(this).removeClass("active");
-				$(this).css({backgroundColor: "red" })
-				console.log("Count Basin button de-activated");
-			} else {
-				$(this).addClass("active");
-				console.log("Count Basin button activated");
-			}
+			$(this).toggleClass("count_basin_button_active");
+			console.log("Count Basin button activated");
+		});
 	});
+	
+	
+	$(document).ready(function() {
+		$(".count_basin_button_active").click(function() {
+			$(this).toggleClass("count_basin_button");
+			console.log("Count Basin button de-activated");
+		});
+	});	
 	
 	// Show and hide non-Basin divs
 	
@@ -113,7 +116,6 @@ $(document).ready(function() {
 				
 */
 				 
-});
 
 
 // Sticky navigation
