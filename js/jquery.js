@@ -63,11 +63,18 @@ $(document).ready(function() {
 // Count Basin filtering
 	
 	
-	// Activate and de-activate Count Basin button
+	// Click on Count Basin  button
 	$(document).ready(function() {
 		$(".count_basin_button").click(function() {
+			
+			// Button set to active state
 			$(this).toggleClass("count_basin_button_active");
+			
+			// Console log
 			console.log("Count Basin button activated");
+			
+			// Hide non Basin pick cubes
+			$(".cube_column").children("div").not(".band_box_basin_pick").fadeToggle(200);
 		});
 	});
 	
