@@ -113,10 +113,13 @@ section.navigation_scrolled{
 	@extend .band_btn;
 	background-color: $green-color-darken;
 	border-color: $green-color-darken;
+	active {
+		background-color: white;
+		color: black;
+	}
 }
 
-.count_basin_button_active {
-	@extend .count_basin_button;
+.basin_button_active {
 	background-color: white;
 	color: black;
 }
@@ -130,10 +133,8 @@ section.navigation_scrolled{
 	background-color: $purple-color-darken;
 	border-color: $purple-color-darken;
 }
-	
 
-.performer_pick_button_clicked {
-	@extend .performer_pick_button;
+.performer_pick_button_active {
 	color: $purple-color-darken;
 	background-color: white;
 }

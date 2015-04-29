@@ -60,35 +60,56 @@ $(document).ready(function() {
 
 // Filter buttons
 
-// Count Basin filtering
-	
-	
-	// Click on Count Basin  button
-	$(document).ready(function() {
-		$(".count_basin_button").click(function() {
-			
-			// Button set to active state
-			$(this).toggleClass("count_basin_button_active");
-			
-			// Console log
-			console.log("Count Basin button activated");
-			
-			// Hide non Basin pick cubes
-			$(".cube_column").children("div").not(".band_box_basin_pick").fadeToggle(200);
+	// Count Basin filtering w/ toggle class
+		
+		// Click on Count Basin button (inactive)
+		$(document).ready(function() {
+			$(".count_basin_button").click(function() {
+				
+				// Button set to active state
+				$(this).toggleClass("basin_button_active");
+				
+				// Console log
+				console.log("Count Basin button activated");
+				
+				// Hide non Basin pick cubes
+				$(".cube_column").children("div").not(".band_box_basin_pick").fadeToggle(200);
+			});
 		});
-	});
-	
-	
-	$(document).ready(function() {
-		$(".count_basin_button_active").click(function() {
-			$(this).toggleClass("count_basin_button");
-			console.log("Count Basin button de-activated");
-		});
-	});	
-	
-	// Show and hide non-Basin divs
-	
+		
+		// Click on Count Basin Active button
+		$(document).ready(function() {
+			$(".count_basin_button_active").click(function() {
+				$(this).toggleClass("count_basin_button");
+				console.log("Count Basin button de-activated");
+			});
+		});	
+		
 
+	// Performer Pick filtering w/ toggle class
+		
+		// Click on Count Basin button (inactive)
+		$(document).ready(function() {
+			$(".performer_pick_button").click(function() {
+				
+				// Button set to active state
+				$(this).toggleClass("performer_pick_button_active");
+				
+				// Console log
+				console.log("Performer Pick button activated");
+				
+				// Hide non Basin pick cubes
+				$(".cube_column").children("div").not(".band_box_performer_pick").fadeToggle(200);
+			});
+		});
+		
+		// Click on Count Basin Active button
+		$(document).ready(function() {
+			$(".count_basin_button_active").click(function() {
+				$(this).toggleClass("count_basin_button");
+				console.log("Count Basin button de-activated");
+			});
+		});	
 			
 
 

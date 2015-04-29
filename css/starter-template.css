@@ -1,12 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Arvo:400,700|Oswald:700);
 html {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-*, *:before, *:after {
-  -webkit-box-sizing: inherit;
-  -moz-box-sizing: inherit;
+*, *::after, *::before {
   box-sizing: inherit; }
 
 /*
@@ -360,7 +356,7 @@ li {
     content: "";
     display: table; }
 
-.band_btn, .count_basin_button, .count_basin_button_active, .performer_pick_button, .performer_pick_button_clicked {
+.band_btn, .count_basin_button, .performer_pick_button {
   font-size: 1.1em;
   color: white;
   background-color: #50b9e0;
@@ -371,19 +367,22 @@ li {
   padding: 10px 15px 10px 15px;
   margin: 8px; }
 
-.count_basin_button, .count_basin_button_active {
+.count_basin_button {
   background-color: #7aff9f;
   border-color: #7aff9f; }
+  .count_basin_button active {
+    background-color: white;
+    color: black; }
 
-.count_basin_button_active {
+.basin_button_active {
   background-color: white;
   color: black; }
 
-.performer_pick_button, .performer_pick_button_clicked {
+.performer_pick_button {
   background-color: #c12fdd;
   border-color: #c12fdd; }
 
-.performer_pick_button_clicked {
+.performer_pick_button_active {
   color: #c12fdd;
   background-color: white; }
 
