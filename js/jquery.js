@@ -66,22 +66,26 @@ $(document).ready(function() {
 		$(document).ready(function() {
 			$(".count_basin_button").click(function() {
 				
-				// Activate button itself
+				// Dealing with Buttons
 				
-					// Button set to active state
-					$(this).toggleClass("basin_button_active");
+					// Activate button itself
 					
-					// Console log
-					console.log("Count Basin button activated");
+						// Button set to active state
+						$(this).toggleClass("basin_button_active");
+						
+						// Console log
+						console.log("Count Basin button activated");
+						
+					// De-activate any other active buttons
 					
-				// De-activate any other active buttons
-				
 					    if ($(".performer_pick_button").hasClass("performer_pick_button_active") === true) {
-						    $(".performer_pick_button").toggleClass("performer_pick_button_active");
-						};
-					
-				// Hide non Basin pick cubes
-				$(".cube_column").children("div").not(".band_box_basin_pick").fadeToggle(200);
+						    $((".performer_pick_button").toggleClass("performer_pick_button_active"));
+						}
+						
+				// Filtering Cubes
+			
+					// Hide non Basin pick cubes;
+					$(".cube_column").children("div").not(".band_box_basin_pick").fadeToggle(200);
 			});
 		});
 		
@@ -96,29 +100,43 @@ $(document).ready(function() {
 
 	// Performer Pick filtering w/ toggle class
 		
-		// Click on Count Basin button (inactive)
+		// Click on Performer Pick button (inactive)
 		$(document).ready(function() {
 			$(".performer_pick_button").click(function() {
 				
-				// Button set to active state
-				$(this).toggleClass("performer_pick_button_active");
+				// Dealing with Buttons
 				
-				// Console log
-				console.log("Performer Pick button activated");
-				
-				// Hide non Basin pick cubes
-				$(".cube_column").children("div").not(".band_box_performer_pick").fadeToggle(200);
+					// Activate button itself
+					
+						// Button set to active state
+						$(this).toggleClass("performer_pick_button_active");
+						
+						// Console log
+						console.log("Performer Pick button activated");
+						
+					// De-activate any other active buttons
+					
+					    if ($(".count_basin_button").hasClass("basin_button_active") === true) {
+						    $((".count_basin_button").removeClass("basin_button_active"));
+						} else {
+							
+						}
+						
+				// Filtering Cubes
+			
+					// Hide non Performer Pick cubes;
+					$(".cube_column").children("div").not(".band_box_performer_pick").fadeToggle(200);
 			});
 		});
 		
-		// Click on Count Basin Active button
+		// Click on Performer Pick button
 		$(document).ready(function() {
 			$(".count_basin_button_active").click(function() {
 				$(this).toggleClass("count_basin_button");
 				console.log("Count Basin button de-activated");
 			});
 		});	
-			
+		
 
 
 
