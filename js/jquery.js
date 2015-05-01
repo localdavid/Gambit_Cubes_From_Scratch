@@ -60,85 +60,27 @@ $(document).ready(function() {
 
 // Filter buttons
 
-	// Count Basin filtering w/ toggle class
-		
-		// Click on Count Basin button (inactive)
-		$(document).ready(function() {
-			$(".count_basin_button").click(function() {
-				
-				// Dealing with Buttons
-				
-					// Activate button itself
-					
-						// Button set to active state
-						$(this).toggleClass("basin_button_active");
-						
-						// Console log
-						console.log("Count Basin button activated");
-						
-					// De-activate any other active buttons
-					
-					    if ($(".performer_pick_button").hasClass("performer_pick_button_active") === true) {
-						    $((".performer_pick_button").toggleClass("performer_pick_button_active"));
-						}
-						
-				// Filtering Cubes
-			
-					// Hide non Basin pick cubes;
-					$(".cube_column").children("div").not(".band_box_basin_pick").fadeToggle(200);
-			});
+	// Count Basin filtering
+	
+	$(document).ready(function() {
+    	$(".count_basin_button").click(function() {
+        	$(this).toggleClass("basin_button_active");
+			if ($(".performer_pick_button").hasClass("performer_pick_button_active") === true) {
+				$(".performer_pick_button").removeClass("performer_pick_button_active");}
 		});
-		
-		// Click on Count Basin Active button
-		$(document).ready(function() {
-			$(".count_basin_button_active").click(function() {
-				$(this).toggleClass("count_basin_button");
-				console.log("Count Basin button de-activated");
-			});
-		});	
-		
-
-	// Performer Pick filtering w/ toggle class
-		
-		// Click on Performer Pick button (inactive)
-		$(document).ready(function() {
-			$(".performer_pick_button").click(function() {
-				
-				// Dealing with Buttons
-				
-					// Activate button itself
-					
-						// Button set to active state
-						$(this).toggleClass("performer_pick_button_active");
-						
-						// Console log
-						console.log("Performer Pick button activated");
-						
-					// De-activate any other active buttons
-					
-					    if ($(".count_basin_button").hasClass("basin_button_active") === true) {
-						    $((".count_basin_button").removeClass("basin_button_active"));
-						} else {
-							
-						}
-						
-				// Filtering Cubes
-			
-					// Hide non Performer Pick cubes;
-					$(".cube_column").children("div").not(".band_box_performer_pick").fadeToggle(200);
-			});
+	});
+	
+	
+	// Performer Pick filtering
+	
+	$(document).ready(function() {
+    	$(".performer_pick_button").click(function() {
+        	$(this).toggleClass("performer_pick_button_active");
+			if ($(".count_basin_button").hasClass("basin_button_active") === true) {
+				$(".count_basin_button").removeClass("basin_button_active");}
 		});
-		
-		// Click on Performer Pick button
-		$(document).ready(function() {
-			$(".count_basin_button_active").click(function() {
-				$(this).toggleClass("count_basin_button");
-				console.log("Count Basin button de-activated");
-			});
-		});	
-		
-
-
+	});
+	
 
 
 		 
