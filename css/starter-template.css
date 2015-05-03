@@ -363,28 +363,28 @@ li {
   border: 1 pt;
   border-radius: 3px;
   border-style: solid;
-  border-color: #50b9e0;
   padding: 10px 15px 10px 15px;
   margin: 8px; }
 
 .count_basin_button {
-  background-color: #7aff9f;
+  background-color: white;
+  color: #7aff9f;
   border-color: #7aff9f; }
-  .count_basin_button active {
-    background-color: white;
-    color: black; }
 
 .basin_button_active {
-  background-color: white;
-  color: black; }
+  color: white;
+  background-color: #7aff9f;
+  border-color: #7aff9f; }
 
 .performer_pick_button {
-  background-color: #c12fdd;
+  color: #c12fdd;
+  background-color: white;
   border-color: #c12fdd; }
 
 .performer_pick_button_active {
-  color: #c12fdd;
-  background-color: white; }
+  color: white;
+  background-color: #c12fdd;
+  border-color: #c12fdd; }
 
 body {
   margin-top: 180; }

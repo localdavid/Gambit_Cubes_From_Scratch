@@ -102,7 +102,7 @@ section.navigation_scrolled{
 	border: 1 pt;
 	border-radius: 3px;
 	border-style: solid;
-	border-color: $primary-color-darken;
+// 	border-color: $primary-color-darken;
 	padding: 10px 15px 10px 15px;
 	margin: 8px;
 }
@@ -111,17 +111,16 @@ section.navigation_scrolled{
 
 .count_basin_button {
 	@extend .band_btn;
-	background-color: $green-color-darken;
+	background-color: white;
+	color: $green-color-darken;
 	border-color: $green-color-darken;
-	active {
-		background-color: white;
-		color: black;
-	}
+
 }
 
 .basin_button_active {
-	background-color: white;
-	color: black;
+	color: white;
+	background-color: $green-color-darken;
+	border-color: $green-color-darken;
 }
 	
 
@@ -130,11 +129,14 @@ section.navigation_scrolled{
 
 .performer_pick_button {
 	@extend .band_btn;
-	background-color: $purple-color-darken;
-	border-color: $purple-color-darken;
+	color: $purple-color-darken;
+	background-color: white;
+	border-color:  $purple-color-darken;
 }
 
 .performer_pick_button_active {
-	color: $purple-color-darken;
-	background-color: white;
+	color: white;
+	background-color: $purple-color-darken;
+	border-color: $purple-color-darken;
+
 }
